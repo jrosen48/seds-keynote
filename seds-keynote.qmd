@@ -18,10 +18,6 @@ They're very philosophical, and it's - honestly - a bit annoying, but also clari
 
 This talk is meant (or should I say, I mean for this talk!) to get a bit at something related - what are the underlying goals of what we call educational data science? And, what worldviews underly and support (or undercut) these goals?
 
-I'll lay out the argument here at the very beginning. One possibility is that educational data science is a methodological program - new data sources, new methods. This is the definition McFarland et al. used in their 2021 commentary in AERA Open, and it's loosely the definition I've used in much of my work.
-
-Another is that educational data science is tied more inextricably to educational problems, questions, and contexts. In this definition, educational data science is not a methodological program so much as it is an orientation to research. I am calling this approach practice-based educational data science, and I am arguing that it's a good and timel ypossible direction for the field. This talk is meant to make that case to you all today. 
-
 ## My background
 
 I'll share very briefly where I am coming from. I was a science teacher, and I intended for that to be my career. I am still deeply tied to K-12 education and K-12 science education. I am PI for an NSF CAREER project that - broadly - supports science teachers to take up and to teach about data science ideas. My wife is a librarian working at a public school and so I engage, well, deeply through her and that work.
@@ -30,21 +26,17 @@ I came to data science through science education. I think of the spark being see
 
 Another was seeing a colleague create an oft- (and I think correctly) bemoaned data visualization of text data, a word cloud. But they were so proud they created - coded - it. 
 
-Still another was laying in bed in graduate school looking at R code I wrote, that worked. It was eye opening; I wasn't trained as a programmer, but I became, over time, interested, and then a bit obsessed, for years reading every book I could find (I think literally) on R, statistics using R, the underlying language (any Advanced R readers out there?). And I went deep into quantitative methods, especially multi-level models. 
-
-And then I wrote data science in education using R, which I think is part of why I am here today. I also developed several widely used R packages and more or less built a career in a teacher education focused department as someone who was a strong coder but who worked in teacher education and classroom contexts.
-
-So what I am not is someone who came up in the EDM tradition and developing intelligent tutors, though I love this work and can't wait to hear Danielle's talk tomorrow. And I didn't come up in the LAK world of accessing and modeling LMS data; and I didn't engage much with Learning at Scale and the deluge of data MOOCS produced. Instead, I more or less identified as an educational data scientist, and I instead drew far more on developments in professional data science practice and the wider data science field than clearly closely related fields in education, for better and for worse, as I'll speak to.
-
-I think the "for better" part is that I carved out a bit of a niche as someone who could do interesting things with data that not many others were doing. And, I think what I brought was more or less the data scientist toolkit --- statistics, programming, subject area knowledge. So I worked in a lot of different domains, but asking questions about student privacy, student engagement, teacher discourse, public sentiment, and teacher community and knoweldge sharing, among other topics.
-
-And then I made a shift to include not just using data science methods, but supporting teachers and students to work with data. And this led to surveys of science teachers' uses of data; describing and studying a bayesian approach to DS education in science contexts; and trying to conceptualize the DSE field.
-
-The "for worse" part is I am - as I noted - a bit of a different type of scholar, less tied to the now fairly established EDM/LAK fields.
+Still another was laying in bed in graduate school looking at R code I wrote, that worked. It was eye opening; I wasn't trained as a programmer, but I became, over time, interested, and then a bit obsessed, for years reading every book I could find (I think literally) on R, statistics using R.
 
 ## Back to the argument
 
 Is EDS a methodological program that takes education as a use case, or is it work that is situated in educational contexts and accountable to its educational impacts? This talk argues the choice is real and timely.
+
+Let me speak to the importance.
+
+(niche edm and LAK don't have) 
+
+AI doesn't have it
 
 Let me speak to the timeliness.
 
@@ -58,9 +50,25 @@ So this is a timely decision about the field.
 
 ## Ways this shows up
 
+There are several ways. These are chosen based on X
+
+## Problem vs. methods
+
 - *Problem-driven vs. methods-driven* is about where the question originates.
-- *Public goods vs. traditional publication* is about where the work lands.
+
+
+## Public vs traditional
+
 - *Interdisciplinary vs. educationally specific* is about what it draws on.
+
+
+## Interdisciplinary vs educationally specific
+
+- *Public goods vs. traditional publication* is about where the work lands.
+
+
+## Continuious vs bookended
+
 - *Continuous vs. bookended engagement* is about what happens in the middle — the long stretch of analysis, interpretation, iteration where practice can either keep correcting the work or be locked out of it.
 
 ## Capacities
@@ -75,11 +83,33 @@ So this is a timely decision about the field.
 
 Educational data science that is not grounded in practice and accountable to educational contexts is not a more rigorous version of the field. It is a different field — methodologically interesting, often well-funded, and increasingly disconnected from the problems education actually has.
 
-- Educational data science that is not grounded in practice and accountable to educational contexts is not a more rigorous version of the field. It is a different field — methodologically interesting, often well-funded, and increasingly disconnected from the problems education actually has.
-- The drift toward that other field is not anyone's fault and not anyone's intention. It is what the incentives produce when no one names the choice.
-- Two concrete avenues that follow — not as generic future directions, but as places where the field is visibly failing the practice test:
-    - **Teacher preparation**: K-12 data science rollout is happening at scale, tens of thousands of teachers need curricula and PD, and the field has produced relatively little for them. Cite the numbers.
-    - **Tools and partnerships for practitioners**: administrators, principals, and policymakers sitting on data they cannot use, with massive unmet demand and almost no supply from the field. Cite the numbers.
+Things the field can do 
+
+Rapid response 
+
+Teacher education
+
+teacher decision making 
+
+Local evidence use
+
+Large scale policy 
+
+Non tech centric uses of data 
+
+Quant methods aligning 
+
+Ed admin and leaders prep
+
+## Teacher prep 
+
+- **Teacher preparation**: K-12 data science rollout is happening at scale, tens of thousands of teachers need curricula and PD, and the field has produced relatively little for them. Cite the numbers.
+
+Cleveland mentioned! 
+
+## Tools
+
+- **Tools and partnerships for practitioners**: administrators, principals, and policymakers sitting on data they cannot use, with massive unmet demand and almost no supply from the field. Cite the numbers.
 
  ## AI 
 
@@ -90,10 +120,12 @@ Educational data science that is not grounded in practice and accountable to edu
 - The honest concession: AI also helps. Within practice-based work, real examples — matching consents, analysis support, project management — make engaged work more tractable for those already doing it.
 - But the net direction of the pull is clear, and the field will not resist it accidentally. If you don't choose practice engagement, the tools available will choose against it for you.
 
-## CREDIBLE
+## A vision
 
 - A specific moment from a teacher's classroom: students doing educational data science work of their own, supported by a tool you built, based on an idea the teacher provided
 - Texture — something surprising, imperfect, unplanned
 - No frame, no callback, no metaphor. The scene closes the talk.
 
 ## Closing
+
+At the end state what the field could look like in 5 and 10 years and what we need 
