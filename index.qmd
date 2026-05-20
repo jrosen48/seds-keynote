@@ -6,11 +6,15 @@ author: "Joshua M. Rosenberg, Ph.D."
 format: revealjs
 ---
 
-## What is the direction of our field?
+# What is the direction of our field?
 
+::: {.notes}
 In this talk, Joshua Rosenberg examines whether educational data science is primarily a methodological program that takes education as a use case, or work situated in educational contexts and accountable to educational outcomes. Arguing that these paths lead to different kinds of work,  he will highlight key features of practice-based approaches, consider implications for teacher education and tools, and reflect on how the field can maintain rigor while better serving educators and learners in an era of AI.
+:::
 
 ## The Problem
+
+What is our field? This is meant to be a window and mirrow to the field - less about a study, more about the field.
 
 I have a friend, and maybe you have a friend like this (or this person is you!) who is always interrogating and critiquing the subtle framing of research. If I say, for example, my goal is to improve educational outcomes, they will ask, of course, which outcomes? A totally reasonable question. But then they will also ask, what do you mean by improve? And, even, what do you mean by your goal? And, of course, it would often come back to discussions of worldviews - underlying, connected systems of thought that we use to make sense of the world. Often these are tacit.
 
@@ -28,15 +32,23 @@ Another was seeing a colleague create an oft- (and I think correctly) bemoaned d
 
 Still another was laying in bed in graduate school looking at R code I wrote, that worked. It was eye opening; I wasn't trained as a programmer, but I became, over time, interested, and then a bit obsessed, for years reading every book I could find (I think literally) on R, statistics using R.
 
-## Back to the argument
+# Back to the argument
+
+## Method or Broader Program?
 
 Is EDS a methodological program that takes education as a use case, or is it work that is situated in educational contexts and accountable to its educational impacts? This talk argues the choice is real and timely.
+
+Let's look at a contrast, both doing good work. I've done both, you may have too. 
+
+## It's important given where the field is 
 
 Let me speak to the importance.
 
 (niche edm and LAK don't have) 
 
 AI doesn't have it
+
+## It's timely
 
 Let me speak to the timeliness.
 
@@ -47,6 +59,10 @@ Education remains the focus of public education.
 We need to show impact to states, the nation.
 
 So this is a timely decision about the field.
+
+## We're talking about practice?
+
+Practice has a few meanings
 
 ## Ways this shows up
 
@@ -70,6 +86,8 @@ There are several ways. These are chosen based on X
 ## Continuious vs bookended
 
 - *Continuous vs. bookended engagement* is about what happens in the middle — the long stretch of analysis, interpretation, iteration where practice can either keep correcting the work or be locked out of it.
+
+/![alt](/img/cld-bugs.png)
 
 ## Capacities
 
