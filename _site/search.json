@@ -7,6 +7,20 @@
     "text": "The Problem\nWhat is our field? This is meant to be a window and mirrow to the field - less about a study, more about the field.\nI have a friend, and maybe you have a friend like this (or this person is you!) who is always interrogating and critiquing the subtle framing of research. If I say, for example, my goal is to improve educational outcomes, they will ask, of course, which outcomes? A totally reasonable question. But then they will also ask, what do you mean by improve? And, even, what do you mean by your goal? And, of course, it would often come back to discussions of worldviews - underlying, connected systems of thought that we use to make sense of the world. Often these are tacit.\nThey’re very philosophical, and it’s - honestly - a bit annoying, but also clarifying and helpful (when I am willing to engage).\nThis talk is meant (or should I say, I mean for this talk!) to get a bit at something related - what are the underlying goals of what we call educational data science? And, what worldviews underly and support (or undercut) these goals?"
   },
   {
+    "objectID": "index.html#preopositions",
+    "href": "index.html#preopositions",
+    "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
+    "section": "Preopositions",
+    "text": "Preopositions\nThough I’m not usually that person, I do have a bit of a history with this issue/question\nData science in and for education"
+  },
+  {
+    "objectID": "index.html#a-proposition",
+    "href": "index.html#a-proposition",
+    "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
+    "section": "A proposition",
+    "text": "A proposition\nBut maybe that wasn’t quite it — it wasn’t so much about method and pedagogy as about vs. for education\nSo the argument is: Is EDS a methodological program that takes education as a use case, or is it work that is situated in educational contexts and accountable to its educational impacts?\nThis talk argues the choice is impo and timely."
+  },
+  {
     "objectID": "index.html#my-background",
     "href": "index.html#my-background",
     "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
@@ -14,102 +28,179 @@
     "text": "My background\nI’ll share very briefly where I am coming from. I was a science teacher, and I intended for that to be my career. I am still deeply tied to K-12 education and K-12 science education. I am PI for an NSF CAREER project that - broadly - supports science teachers to take up and to teach about data science ideas. My wife is a librarian working at a public school and so I engage, well, deeply through her and that work.\nI came to data science through science education. I think of the spark being seeing students changing the colors of graphs they made in Excel, and seeing them relate to their product — a small but meaningful relationship to data; claiming a relationship.\nAnother was seeing a colleague create an oft- (and I think correctly) bemoaned data visualization of text data, a word cloud. But they were so proud they created - coded - it.\nStill another was laying in bed in graduate school looking at R code I wrote, that worked. It was eye opening; I wasn’t trained as a programmer, but I became, over time, interested, and then a bit obsessed, for years reading every book I could find (I think literally) on R, statistics using R."
   },
   {
-    "objectID": "index.html#method-or-broader-program",
-    "href": "index.html#method-or-broader-program",
+    "objectID": "index.html#credible",
+    "href": "index.html#credible",
     "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
-    "section": "Method or Broader Program?",
-    "text": "Method or Broader Program?\nIs EDS a methodological program that takes education as a use case, or is it work that is situated in educational contexts and accountable to its educational impacts? This talk argues the choice is real and timely.\nLet’s look at a contrast, both doing good work. I’ve done both, you may have too."
+    "section": "CREDIBLE",
+    "text": "CREDIBLE\nSTICKER"
   },
   {
-    "objectID": "index.html#its-important-given-where-the-field-is",
-    "href": "index.html#its-important-given-where-the-field-is",
+    "objectID": "index.html#the-field-is-still-niche",
+    "href": "index.html#the-field-is-still-niche",
     "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
-    "section": "It’s important given where the field is",
-    "text": "It’s important given where the field is\nLet me speak to the importance.\n(niche edm and LAK don’t have)\nAI doesn’t have it"
+    "section": "The field is still niche",
+    "text": "The field is still niche\n\nalt"
   },
   {
-    "objectID": "index.html#its-timely",
-    "href": "index.html#its-timely",
+    "objectID": "index.html#there-are-a-lot-of-unmet-data-needs",
+    "href": "index.html#there-are-a-lot-of-unmet-data-needs",
     "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
-    "section": "It’s timely",
-    "text": "It’s timely\nLet me speak to the timeliness.\nFunding is tight. This has implications for faculty, future scholars, students.\nEducation remains the focus of public education.\nWe need to show impact to states, the nation.\nSo this is a timely decision about the field."
+    "section": "There are a lot of unmet data needs",
+    "text": "There are a lot of unmet data needs\nThere isn’t a shortage of data related needs and challenges.\nThere is still a lot of Excel.\nPedagogical\nParents\nTeachers\nAdminn\nMy survey findings."
   },
   {
-    "objectID": "index.html#were-talking-about-practice",
-    "href": "index.html#were-talking-about-practice",
+    "objectID": "index.html#extant-solutions-are-complex-and-hard-to-use",
+    "href": "index.html#extant-solutions-are-complex-and-hard-to-use",
     "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
-    "section": "We’re talking about practice?",
-    "text": "We’re talking about practice?\n/"
+    "section": "Extant solutions are complex and hard to use",
+    "text": "Extant solutions are complex and hard to use\ndashboards\nBB quote"
   },
   {
-    "objectID": "index.html#ways-this-shows-up",
-    "href": "index.html#ways-this-shows-up",
+    "objectID": "index.html#other-fields-have-fundamental-challenges-and-strengths",
+    "href": "index.html#other-fields-have-fundamental-challenges-and-strengths",
     "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
-    "section": "Ways this shows up",
-    "text": "Ways this shows up\nThere are several ways. These are chosen based on X"
+    "section": "Other fields have fundamental challenges (and strengths)",
+    "text": "Other fields have fundamental challenges (and strengths)\n- Siemens and Baker (2012, *LAK 2*): \n\n\"In education, the emergence of 'big data' through new extensive educational media, combined with advances in computation holds promise for improving learning processes in formal education, and beyond as well. \n\nIncreasingly, very large data sets are available from students’ interactions with educational software and online learning - among other sources - with public data repositories supporting researchers in obtaining this data.\n\nTwo distinct research communities, Educational Data Mining (EDM) and Learning Analytics and Knowledge (LAK), have developed in response.\"\n\n- Baker and Yacef (2009, *JEDM*): \n\n\"In recent years, advances in computing and information technologies have radically expanded the data available to researchers and professionals in a wide variety of domains, from government and biotechnology, to business logistics and professional sports. \n\nLikewise, recent increases in instrumented educational software, online courses, as well as databases of student test scores, have created large repositories of educational data. The Educational Data Mining community seeks to use these data repositories to better understand learners and learning, and to develop computational approaches that combine data and theory to transform practice to benefit learners.\"\n\n- Long et al. (2011, *LAK 1*):\n\n\"The idea for establishing a special dedicated forum to researching learning analytics was motivated by several important indicators:\n\n1. The growth of data surpasses the ability of organizations to make sense of it. This concern is particularly pronounced in relation to knowledge, teaching, and learning.\n\n2. Learning institutions and corporations make little use of the data learners \"throw off\" in the process of accessing learning materials, interacting with educators and peers, and creating new content.\n\n3. In an age where educational institutions are under growing pressure to reduce costs and increase efficiency, analytics promises to be an important lens through which to view and plan for change at course and institutions levels.\""
   },
   {
-    "objectID": "index.html#problem-vs.-methods",
-    "href": "index.html#problem-vs.-methods",
+    "objectID": "index.html#funding-is-tight",
+    "href": "index.html#funding-is-tight",
     "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
-    "section": "Problem vs. methods",
-    "text": "Problem vs. methods\n\nProblem-driven vs. methods-driven is about where the question originates."
+    "section": "Funding is tight",
+    "text": "Funding is tight\nShow NSF graphs, stories"
   },
   {
-    "objectID": "index.html#public-vs-traditional",
-    "href": "index.html#public-vs-traditional",
+    "objectID": "index.html#education-is-the-focus-of-public-attention-and-scrutiny",
+    "href": "index.html#education-is-the-focus-of-public-attention-and-scrutiny",
     "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
-    "section": "Public vs traditional",
-    "text": "Public vs traditional\n\nInterdisciplinary vs. educationally specific is about what it draws on."
+    "section": "Education is the focus of public attention and scrutiny",
+    "text": "Education is the focus of public attention and scrutiny\nShow ed tech backlash stories, declining enrollment"
   },
   {
-    "objectID": "index.html#interdisciplinary-vs-educationally-specific",
-    "href": "index.html#interdisciplinary-vs-educationally-specific",
+    "objectID": "index.html#impact-finally-matters",
+    "href": "index.html#impact-finally-matters",
     "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
-    "section": "Interdisciplinary vs educationally specific",
-    "text": "Interdisciplinary vs educationally specific\n\nPublic goods vs. traditional publication is about where the work lands."
+    "section": "Impact (finally?) matters",
+    "text": "Impact (finally?) matters\nConsequence, impact, partnerships\nNot one-off engagement"
   },
   {
-    "objectID": "index.html#continuious-vs-bookended",
-    "href": "index.html#continuious-vs-bookended",
+    "objectID": "index.html#sharing-in-closed-ways",
+    "href": "index.html#sharing-in-closed-ways",
     "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
-    "section": "Continuious vs bookended",
-    "text": "Continuious vs bookended\n\nContinuous vs. bookended engagement is about what happens in the middle — the long stretch of analysis, interpretation, iteration where practice can either keep correcting the work or be locked out of it."
+    "section": "Sharing in closed ways",
+    "text": "Sharing in closed ways\nActually, other fields better here\nEdu not great (TCR)\nPublic goods"
+  },
+  {
+    "objectID": "index.html#commercial-tools-predominate",
+    "href": "index.html#commercial-tools-predominate",
+    "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
+    "section": "Commercial tools predominate",
+    "text": "Commercial tools predominate\nXX"
+  },
+  {
+    "objectID": "index.html#other-fields-think-they-have-it-covered",
+    "href": "index.html#other-fields-think-they-have-it-covered",
+    "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
+    "section": "Other fields think they have it covered",
+    "text": "Other fields think they have it covered\nIGSDSP"
+  },
+  {
+    "objectID": "index.html#oh-yeah-ai",
+    "href": "index.html#oh-yeah-ai",
+    "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
+    "section": "Oh, yeah, AI",
+    "text": "Oh, yeah, AI\nIt’s a thing"
   },
   {
     "objectID": "index.html#capacities",
     "href": "index.html#capacities",
     "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
     "section": "Capacities",
-    "text": "Capacities\n\nJudgment about when to commit — developed by being close enough to practice that practice tells you\nRelationships and sustained proximity — the precondition for the other two, not a peer of them\nDisciplinary humility — knowing what to borrow and what to leave, which requires understanding both sides\n\nNote the asymmetry: relationships are doing more work than the symmetric framing would suggest."
+    "text": "Capacities\n\nJudgment about when to commit — developed by being close enough to practice that practice tells you\nRelationships and sustained proximity — the precondition for the other two, not a peer of them\nDisciplinary humility — knowing what to borrow and what to leave, which requires understanding both sides"
   },
   {
     "objectID": "index.html#avenues",
     "href": "index.html#avenues",
     "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
     "section": "Avenues",
-    "text": "Avenues\nEducational data science that is not grounded in practice and accountable to educational contexts is not a more rigorous version of the field. It is a different field — methodologically interesting, often well-funded, and increasingly disconnected from the problems education actually has.\nThings the field can do\nRapid response\nTeacher education\nteacher decision making\nLocal evidence use\nLarge scale policy\nNon tech centric uses of data\nQuant methods aligning\nEd admin and leaders prep"
+    "text": "Avenues\nThings the field can do"
   },
   {
-    "objectID": "index.html#teacher-prep",
-    "href": "index.html#teacher-prep",
+    "objectID": "index.html#right-sized-problems",
+    "href": "index.html#right-sized-problems",
     "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
-    "section": "Teacher prep",
-    "text": "Teacher prep\n\nTeacher preparation: K-12 data science rollout is happening at scale, tens of thousands of teachers need curricula and PD, and the field has produced relatively little for them. Cite the numbers.\n\nCleveland mentioned!"
+    "section": "Right-sized problems",
+    "text": "Right-sized problems\nIterate, make better"
   },
   {
-    "objectID": "index.html#tools",
-    "href": "index.html#tools",
+    "objectID": "index.html#teacher-education",
+    "href": "index.html#teacher-education",
     "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
-    "section": "Tools",
-    "text": "Tools\n\nTools and partnerships for practitioners: administrators, principals, and policymakers sitting on data they cannot use, with massive unmet demand and almost no supply from the field. Cite the numbers.\n\n## AI\n\nThe honest version: AI is not neutral with respect to the argument. It pulls the field toward the removed side of every axis.\n\nOn exploratory vs. planned: AI makes exploration nearly free, which makes the question of when to commit more urgent — and offers nothing to help answer it. The cost of generating one more analysis collapses; the cost of being wrong about which one mattered does not.\nOn practice-engaged vs. removed: AI lowers the cost of appearing practice-engaged. You can summarize interview transcripts you didn’t sit through, draft consent letters to teachers you don’t know, generate plausible accounts of classrooms you’ve never visited. The artifacts of engagement become cheap; the relational substrate they used to indicate does not. This is the real threat — not that AI replaces practice-based work, but that it makes it harder to tell who is doing it.\nOn interdisciplinary vs. education-specific: AI draws on everything indiscriminately. It lowers the cost of borrowing from any field to zero, which makes disciplinary humility harder to develop because the friction that used to teach it is gone.\n\nThe honest concession: AI also helps. Within practice-based work, real examples — matching consents, analysis support, project management — make engaged work more tractable for those already doing it.\nBut the net direction of the pull is clear, and the field will not resist it accidentally. If you don’t choose practice engagement, the tools available will choose against it for you."
+    "section": "Teacher education",
+    "text": "Teacher education\n\nTeacher preparation: K-12 data science rollout is happening at scale, tens of thousands of teachers need curricula and PD, and the field has produced relatively little for them. Cite the numbers.\n\nCleveland mentioned!"
+  },
+  {
+    "objectID": "index.html#teacher-support",
+    "href": "index.html#teacher-support",
+    "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
+    "section": "Teacher support",
+    "text": "Teacher support\nYeah"
+  },
+  {
+    "objectID": "index.html#local-evidence-use",
+    "href": "index.html#local-evidence-use",
+    "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
+    "section": "Local evidence use",
+    "text": "Local evidence use\nAskAboutEdu"
+  },
+  {
+    "objectID": "index.html#quick-insights",
+    "href": "index.html#quick-insights",
+    "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
+    "section": "Quick insights",
+    "text": "Quick insights\nTranscripts of school boards"
+  },
+  {
+    "objectID": "index.html#large-scale-policy-analyses",
+    "href": "index.html#large-scale-policy-analyses",
+    "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
+    "section": "Large scale policy analyses",
+    "text": "Large scale policy analyses"
+  },
+  {
+    "objectID": "index.html#non-tech-centric-uses-of-data",
+    "href": "index.html#non-tech-centric-uses-of-data",
+    "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
+    "section": "Non tech centric uses of data",
+    "text": "Non tech centric uses of data\nQuant and qual"
+  },
+  {
+    "objectID": "index.html#modernizing-quant-methods",
+    "href": "index.html#modernizing-quant-methods",
+    "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
+    "section": "Modernizing quant methods",
+    "text": "Modernizing quant methods\nLots of work to do here"
+  },
+  {
+    "objectID": "index.html#ed-admin-and-leaders-prep",
+    "href": "index.html#ed-admin-and-leaders-prep",
+    "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
+    "section": "Ed admin and leaders prep",
+    "text": "Ed admin and leaders prep\nData literacy"
+  },
+  {
+    "objectID": "index.html#public-goods-and-tools",
+    "href": "index.html#public-goods-and-tools",
+    "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
+    "section": "Public goods and tools",
+    "text": "Public goods and tools\n\nTools and partnerships for practitioners: administrators, principals, and policymakers sitting on data they cannot use, with massive unmet demand and almost no supply from the field. Cite the numbers."
   },
   {
     "objectID": "index.html#a-vision",
     "href": "index.html#a-vision",
     "title": "Practice-based Educational Data Science: A Proposal for Our Emerging Field",
     "section": "A vision",
-    "text": "A vision\n\nA specific moment from a teacher’s classroom: students doing educational data science work of their own, supported by a tool you built, based on an idea the teacher provided\nTexture — something surprising, imperfect, unplanned\nNo frame, no callback, no metaphor. The scene closes the talk."
+    "text": "A vision\nWe have a choice. Back to the initial framing - in or for?"
   },
   {
     "objectID": "index.html#closing",

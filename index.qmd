@@ -3,10 +3,16 @@ title: "Practice-based Educational Data Science: A Proposal for Our Emerging Fie
 subtitle: "A keynote presentation at the Stanford Education Data Science conference"
 date: "9:30-10:15am, May 27"
 author: "Joshua M. Rosenberg, Ph.D."
-format: revealjs
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    incremental: false
+    width: 1280
+    height: 720
 ---
 
-# What is the direction of our field?
+# Introduction
 
 ::: {.notes}
 In this talk, Joshua Rosenberg examines whether educational data science is primarily a methodological program that takes education as a use case, or work situated in educational contexts and accountable to educational outcomes. Arguing that these paths lead to different kinds of work,  he will highlight key features of practice-based approaches, consider implications for teacher education and tools, and reflect on how the field can maintain rigor while better serving educators and learners in an era of AI.
@@ -22,6 +28,24 @@ They're very philosophical, and it's - honestly - a bit annoying, but also clari
 
 This talk is meant (or should I say, I mean for this talk!) to get a bit at something related - what are the underlying goals of what we call educational data science? And, what worldviews underly and support (or undercut) these goals?
 
+## Preopositions
+
+Though I'm not usually _that_ person, I do have a bit of a history with this issue/question
+
+*Data science in and for education*
+
+## A proposition
+
+But maybe that wasn't quite it --- it wasn't so much about method and pedagogy as about vs. for education
+
+So the argument is: Is EDS a methodological program that takes education as a use case, or is it work that is situated in educational contexts and accountable to its educational impacts? 
+
+This talk argues the choice is impo and timely.
+
+# Turn and talk
+
+What brought you to EDS?
+
 ## My background
 
 I'll share very briefly where I am coming from. I was a science teacher, and I intended for that to be my career. I am still deeply tied to K-12 education and K-12 science education. I am PI for an NSF CAREER project that - broadly - supports science teachers to take up and to teach about data science ideas. My wife is a librarian working at a public school and so I engage, well, deeply through her and that work.
@@ -32,62 +56,101 @@ Another was seeing a colleague create an oft- (and I think correctly) bemoaned d
 
 Still another was laying in bed in graduate school looking at R code I wrote, that worked. It was eye opening; I wasn't trained as a programmer, but I became, over time, interested, and then a bit obsessed, for years reading every book I could find (I think literally) on R, statistics using R.
 
-# Back to the argument
+## CREDIBLE
 
-## Method or Broader Program?
+STICKER
 
-Is EDS a methodological program that takes education as a use case, or is it work that is situated in educational contexts and accountable to its educational impacts? This talk argues the choice is real and timely.
+![](/img/credible-group.jpg)
 
-Let's look at a contrast, both doing good work. I've done both, you may have too. 
+![](/img/cld-bugs.png)
 
-## It's important given where the field is 
+# The Problems
 
-Let me speak to the importance.
+## The field is still niche
 
-(niche edm and LAK don't have) 
+![alt](/img/eds-growth-abstract.png)
 
-AI doesn't have it
+## There are a lot of unmet data needs
 
-## It's timely
+There isn't a shortage of data related needs and challenges. 
 
-Let me speak to the timeliness.
+There is still a _lot_ of Excel.
 
-Funding is tight. This has implications for faculty, future scholars, students.
+Pedagogical
 
-Education remains the focus of public education.
+Parents
 
-We need to show impact to states, the nation.
+Teachers
 
-So this is a timely decision about the field.
+Adminn
 
-## We're talking about practice?
+My survey findings.
 
-Practice has a few meanings
+## Extant solutions are complex and hard to use
 
-## Ways this shows up
+dashboards
 
-There are several ways. These are chosen based on X
+BB quote
 
-## Problem vs. methods
+## Other fields have fundamental challenges (and strengths)
 
-- *Problem-driven vs. methods-driven* is about where the question originates.
+    - Siemens and Baker (2012, *LAK 2*): 
+    
+    "In education, the emergence of 'big data' through new extensive educational media, combined with advances in computation holds promise for improving learning processes in formal education, and beyond as well. 
+    
+    Increasingly, very large data sets are available from students’ interactions with educational software and online learning - among other sources - with public data repositories supporting researchers in obtaining this data.
 
+    Two distinct research communities, Educational Data Mining (EDM) and Learning Analytics and Knowledge (LAK), have developed in response."
 
-## Public vs traditional
+    - Baker and Yacef (2009, *JEDM*): 
 
-- *Interdisciplinary vs. educationally specific* is about what it draws on.
+    "In recent years, advances in computing and information technologies have radically expanded the data available to researchers and professionals in a wide variety of domains, from government and biotechnology, to business logistics and professional sports. 
+    
+    Likewise, recent increases in instrumented educational software, online courses, as well as databases of student test scores, have created large repositories of educational data. The Educational Data Mining community seeks to use these data repositories to better understand learners and learning, and to develop computational approaches that combine data and theory to transform practice to benefit learners."
 
+    - Long et al. (2011, *LAK 1*):
 
-## Interdisciplinary vs educationally specific
+    "The idea for establishing a special dedicated forum to researching learning analytics was motivated by several important indicators:
 
-- *Public goods vs. traditional publication* is about where the work lands.
+    1. The growth of data surpasses the ability of organizations to make sense of it. This concern is particularly pronounced in relation to knowledge, teaching, and learning.
 
+    2. Learning institutions and corporations make little use of the data learners "throw off" in the process of accessing learning materials, interacting with educators and peers, and creating new content.
 
-## Continuious vs bookended
+    3. In an age where educational institutions are under growing pressure to reduce costs and increase efficiency, analytics promises to be an important lens through which to view and plan for change at course and institutions levels."
+ 
+## Funding is tight
 
-- *Continuous vs. bookended engagement* is about what happens in the middle — the long stretch of analysis, interpretation, iteration where practice can either keep correcting the work or be locked out of it.
+Show NSF graphs, stories
 
-/![alt](/img/cld-bugs.png)
+## Education is the focus of public attention and scrutiny
+
+Show ed tech backlash stories, declining enrollment
+
+## Impact (finally?) matters
+
+Consequence, impact, partnerships 
+
+Not one-off engagement
+
+## Sharing in closed ways
+
+Actually, other fields better here
+
+Edu not great (TCR)
+
+Public goods 
+
+## Commercial tools predominate
+
+XX
+
+## Other fields think they have it covered
+
+IGSDSP
+
+## Oh, yeah, AI
+
+It's a thing
 
 ## Capacities
 
@@ -95,55 +158,135 @@ There are several ways. These are chosen based on X
 - Relationships and sustained proximity — the precondition for the other two, not a peer of them
 - Disciplinary humility — knowing what to borrow and what to leave, which requires understanding both sides
 
-*Note the *asymmetry*: relationships are doing more work than the symmetric framing would suggest.*
-
 ## Avenues
-
-Educational data science that is not grounded in practice and accountable to educational contexts is not a more rigorous version of the field. It is a different field — methodologically interesting, often well-funded, and increasingly disconnected from the problems education actually has.
 
 Things the field can do 
 
-Rapid response 
+## Right-sized problems
 
-Teacher education
+Iterate, make better
 
-teacher decision making 
-
-Local evidence use
-
-Large scale policy 
-
-Non tech centric uses of data 
-
-Quant methods aligning 
-
-Ed admin and leaders prep
-
-## Teacher prep 
+## Teacher education
 
 - **Teacher preparation**: K-12 data science rollout is happening at scale, tens of thousands of teachers need curricula and PD, and the field has produced relatively little for them. Cite the numbers.
 
 Cleveland mentioned! 
 
-## Tools
+## Teacher support
+
+Yeah
+
+## Local evidence use
+
+AskAboutEdu
+
+## Quick insights
+
+Transcripts of school boards
+
+## Large scale policy analyses
+
+## Non tech centric uses of data 
+
+Quant and qual
+
+## Modernizing quant methods
+
+Lots of work to do here
+
+## Ed admin and leaders prep
+
+Data literacy
+
+## Public goods and tools
 
 - **Tools and partnerships for practitioners**: administrators, principals, and policymakers sitting on data they cannot use, with massive unmet demand and almost no supply from the field. Cite the numbers.
 
- ## AI 
+# Turn and talk
 
- - The honest version: AI is not neutral with respect to the argument. It pulls the field toward the *removed* side of every axis.
-    - **On exploratory vs. planned**: AI makes exploration nearly free, which makes the question of when to commit more urgent — and offers nothing to help answer it. The cost of generating one more analysis collapses; the cost of being wrong about which one mattered does not.
-    - **On practice-engaged vs. removed**: AI lowers the cost of *appearing* practice-engaged. You can summarize interview transcripts you didn't sit through, draft consent letters to teachers you don't know, generate plausible accounts of classrooms you've never visited. The artifacts of engagement become cheap; the relational substrate they used to indicate does not. This is the real threat — not that AI replaces practice-based work, but that it makes it harder to tell who is doing it.
-    - **On interdisciplinary vs. education-specific**: AI draws on everything indiscriminately. It lowers the cost of borrowing from any field to zero, which makes disciplinary humility harder to develop because the friction that used to teach it is gone.
-- The honest concession: AI also helps. Within practice-based work, real examples — matching consents, analysis support, project management — make engaged work more tractable for those already doing it.
-- But the net direction of the pull is clear, and the field will not resist it accidentally. If you don't choose practice engagement, the tools available will choose against it for you.
+What are important avenues for us?
+
+ # A few words on AI (that haven't been said already)
+
+ It can remove or engage us with practice
+
+ More "AI as a normal technology", perhaps a more impactful one than many we have recently seen, perhaps with spikey and hard-to-anticipate impacts --- but not fundamentally different
+
+ Repeatedly struck by how _not_ different AI coding is
+
+    - Understand context and problem
+    - Iterate (and iterate)
+    - Check
+    - Get feedback
+    - Know the right direction to go
 
 ## A vision
 
-- A specific moment from a teacher's classroom: students doing educational data science work of their own, supported by a tool you built, based on an idea the teacher provided
-- Texture — something surprising, imperfect, unplanned
-- No frame, no callback, no metaphor. The scene closes the talk.
+We have a choice. Back to the initial framing - in or for?
 
 ## Closing
 
-At the end state what the field could look like in 5 and 10 years and what we need 
+At the end state what the field could look like in 5 and 10 years and what we need
+
+<!-- ===================================================================
+IMAGE LIBRARY — parking lot
+
+Every image in /img/ is listed below as ready-to-paste code. To use one,
+cut a line out of this comment block and drop it onto a slide. Adjust the
+width as needed (or delete `{width="..."}` for the image's natural size).
+
+--- CLD / CREDIBLE project ---
+![](/img/credible-group.jpg){width="70%"}
+![](/img/cld-class.jpg){width="70%"}
+![](/img/cld-class-bug.jpg){width="70%"}
+![](/img/cld-group.jpg){width="70%"}
+![](/img/cld-full.png){width="70%"}
+![](/img/cld-screens.png){width="80%"}
+![](/img/cld-query.png){width="80%"}
+![](/img/cld-bugs.png){width="45%"}
+
+--- Data tools (CODAP, spreadsheets) ---
+![](/img/get-data.png){width="55%"}
+![](/img/codap-ag-data.jpeg){width="70%"}
+![](/img/codap-bar.jpeg){width="70%"}
+![](/img/art-and-data.jpeg){width="70%"}
+![](/img/messy-data.jpeg){width="70%"}
+![](/img/messy-desktop.png){width="80%"}
+
+--- Classrooms & teaching ---
+![](/img/science-classroom.jpg){width="70%"}
+![](/img/notebook-and-laptop.jpeg){width="55%"}
+![](/img/coach-students.jpeg){width="55%"}
+
+--- Teacher professional development ---
+![](/img/pd-card-sort.jpeg){width="70%"}
+![](/img/pd-group-work.jpeg){width="70%"}
+![](/img/pd-laptop-diagram.jpeg){width="70%"}
+![](/img/pd-outdoor-pair.jpeg){width="70%"}
+![](/img/krebs-and-mertz.jpeg){width="70%"}
+![](/img/utk-composting-sign.jpeg){width="45%"}
+
+--- EDS field & literature ---
+![](/img/eds-growth-abstract.png){width="80%"}
+![](/img/eds-growth-thesaurus.png){width="80%"}
+![](/img/cleveland-action-plan.png){width="55%"}
+![](/img/cleveland-pedagogy.png){width="55%"}
+![](/img/eds-past-present-future.png){width="80%"}
+![](/img/eds-work-abstract.png){width="60%"}
+![](/img/eds-skills-chart.png){width="85%"}
+![](/img/software-use-table.png){width="85%"}
+![](/img/dsieur-cover.jpg){width="35%"}
+
+--- tidyLPA ---
+![](/img/tidylpa-paper.png){width="65%"}
+![](/img/tidylpa-paper-sidebar.png){width="75%"}
+![](/img/tidylpa-website.png){width="75%"}
+
+--- Sentiment & data-ethics research ---
+![](/img/sentiment-model-eq.png){width="45%"}
+![](/img/sentiment-variables-table.png){width="80%"}
+![](/img/sentiment-results-table.png){width="80%"}
+![](/img/public-sentiment-paper.png){width="65%"}
+![](/img/facebook-ethics-paper.png){width="70%"}
+![](/img/intimidation-table.png){width="70%"}
+==================================================================== --> 
