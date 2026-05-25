@@ -15,16 +15,24 @@ format:
 # Introduction
 
 ::: {.notes}
-In this talk, Joshua Rosenberg examines whether educational data science is primarily a methodological program that takes education as a use case, or work situated in educational contexts and accountable to educational outcomes. Arguing that these paths lead to different kinds of work,  he will highlight key features of practice-based approaches, consider implications for teacher education and tools, and reflect on how the field can maintain rigor while better serving educators and learners in an era of AI.
+In this talk, Joshua Rosenberg examines whether educational data science is primarily a methodological program that takes education as a use case, or work situated in educational contexts and accountable to educational outcomes. 
+
+Arguing that these paths lead to different kinds of work,  he will highlight key features of practice-based approaches
+
+reflect on how the field can maintain rigor while better serving educators and learners in an era of AI.
 :::
 
 ## The Problem
 
 What is our field? This is meant to be a window and mirrow to the field - less about a study, more about the field.
 
-I have a friend, and maybe you have a friend like this (or this person is you!) who is always interrogating and critiquing the subtle framing of research. If I say, for example, my goal is to improve educational outcomes, they will ask, of course, which outcomes? A totally reasonable question. But then they will also ask, what do you mean by improve? And, even, what do you mean by your goal? And, of course, it would often come back to discussions of worldviews - underlying, connected systems of thought that we use to make sense of the world. Often these are tacit.
+I have a friend, and maybe you have a friend like this (or this person is you!) who is always interrogating and critiquing the subtle framing of research. If I say, for example, my goal is to improve educational outcomes, they will ask, of course:
 
-They're very philosophical, and it's - honestly - a bit annoying, but also clarifying and helpful (when I am willing to engage). 
+which outcomes? A totally reasonable question. 
+
+But then they will also ask, what do you mean by improve? A harder question.
+
+And, even, what do you mean by "my goal"? At this point, I often found myself provoked and ready to abandon the conversation, but, on reflection, the questions are always thoughtful. 
 
 This talk is meant (or should I say, I mean for this talk!) to get a bit at something related - what are the underlying goals of what we call educational data science? And, what worldviews underly and support (or undercut) these goals?
 
@@ -32,11 +40,13 @@ This talk is meant (or should I say, I mean for this talk!) to get a bit at some
 
 Though I'm not usually _that_ person, I do have a bit of a history with this issue/question
 
-*Data science in and for education*
+![](/img/rmldt-1.png){width="70%"}
+
+![](/img/rmldt-2.png){width="70%"}
 
 ## A proposition
 
-But maybe that wasn't quite it --- it wasn't so much about method and pedagogy as about vs. for education
+But maybe that wasn't quite it --- it wasn't so much about method and pedagogy as about _in_ vs. _for_ education
 
 So the argument is: Is EDS a methodological program that takes education as a use case, or is it work that is situated in educational contexts and accountable to its educational impacts? 
 
@@ -48,6 +58,29 @@ What brought you to EDS?
 
 ## My background
 
+### Me!
+
+![](/img/schoolpicture.bmp){width="70%"}
+
+---
+
+### My classroom!
+
+![](/img/jr-classroom.jpg){width="70%"}
+
+---
+
+### Excel
+
+![](/img/excel.jpg){width="70%"}
+
+---
+
+### Word Clouds
+
+![](/img/word-cloud-fuglei.png){width="70%"}
+
+::: {.notes}
 I'll share very briefly where I am coming from. I was a science teacher, and I intended for that to be my career. I am still deeply tied to K-12 education and K-12 science education. I am PI for an NSF CAREER project that - broadly - supports science teachers to take up and to teach about data science ideas. My wife is a librarian working at a public school and so I engage, well, deeply through her and that work.
 
 I came to data science through science education. I think of the spark being seeing students changing the colors of graphs they made in Excel, and seeing them relate to their product --- a small but meaningful relationship to data; claiming a relationship.
@@ -55,6 +88,7 @@ I came to data science through science education. I think of the spark being see
 Another was seeing a colleague create an oft- (and I think correctly) bemoaned data visualization of text data, a word cloud. But they were so proud they created - coded - it. 
 
 Still another was laying in bed in graduate school looking at R code I wrote, that worked. It was eye opening; I wasn't trained as a programmer, but I became, over time, interested, and then a bit obsessed, for years reading every book I could find (I think literally) on R, statistics using R.
+:::
 
 ## CREDIBLE
 
@@ -64,103 +98,117 @@ STICKER
 
 ![](/img/cld-bugs.png)
 
-# The Problems
+# Turn and talk
 
-## The field is still niche
+What brings you to the EDS conference?
+
+# The Gaps and Problems
+
+## Gaps
+
+### The field is still niche
 
 ![alt](/img/eds-growth-abstract.png)
 
-## There are a lot of unmet data needs
+### There are a lot of unmet data needs
 
-There isn't a shortage of data related needs and challenges. 
+There is not yet a shortage of data related needs and challenges.
 
-There is still a _lot_ of Excel.
+#### There is still a _lot_ of Excel.
 
-Pedagogical
-
-Parents
-
-Teachers
-
-Adminn
+#### There is a lot of interest on the part of educators and administrators
 
 My survey findings.
 
-## Extant solutions are complex and hard to use
+Show interview data.
 
-dashboards
+### Researchers' tooling is still not meeting the markk
 
-BB quote
+Show data.
 
-## Other fields have fundamental challenges (and strengths)
+### Impact (finally?) matters
 
-    - Siemens and Baker (2012, *LAK 2*): 
-    
-    "In education, the emergence of 'big data' through new extensive educational media, combined with advances in computation holds promise for improving learning processes in formal education, and beyond as well. 
-    
-    Increasingly, very large data sets are available from students’ interactions with educational software and online learning - among other sources - with public data repositories supporting researchers in obtaining this data.
+Consequence, impact, partnerships.
 
-    Two distinct research communities, Educational Data Mining (EDM) and Learning Analytics and Knowledge (LAK), have developed in response."
+Not one-off engagement.
 
-    - Baker and Yacef (2009, *JEDM*): 
+### Sharing in closed ways
 
-    "In recent years, advances in computing and information technologies have radically expanded the data available to researchers and professionals in a wide variety of domains, from government and biotechnology, to business logistics and professional sports. 
-    
-    Likewise, recent increases in instrumented educational software, online courses, as well as databases of student test scores, have created large repositories of educational data. The Educational Data Mining community seeks to use these data repositories to better understand learners and learning, and to develop computational approaches that combine data and theory to transform practice to benefit learners."
+Actually, other fields better here.
 
-    - Long et al. (2011, *LAK 1*):
+Edu not great (TCR).
 
-    "The idea for establishing a special dedicated forum to researching learning analytics was motivated by several important indicators:
+Public goods.
 
-    1. The growth of data surpasses the ability of organizations to make sense of it. This concern is particularly pronounced in relation to knowledge, teaching, and learning.
+## Problems
 
-    2. Learning institutions and corporations make little use of the data learners "throw off" in the process of accessing learning materials, interacting with educators and peers, and creating new content.
+### Extant solutions are complex and hard to use
 
-    3. In an age where educational institutions are under growing pressure to reduce costs and increase efficiency, analytics promises to be an important lens through which to view and plan for change at course and institutions levels."
- 
-## Funding is tight
+BB quote.
 
-Show NSF graphs, stories
+### Other fields have fundamental challenges (and strengths)
 
-## Education is the focus of public attention and scrutiny
+- Siemens and Baker (2012, *LAK 2*):
 
-Show ed tech backlash stories, declining enrollment
+> "In education, the emergence of 'big data' through new extensive educational media, combined with advances in computation holds promise for improving learning processes in formal education, and beyond as well.
+>
+> Increasingly, very large data sets are available from students’ interactions with educational software and online learning - among other sources - with public data repositories supporting researchers in obtaining this data.
+>
+> Two distinct research communities, Educational Data Mining (EDM) and Learning Analytics and Knowledge (LAK), have developed in response."
 
-## Impact (finally?) matters
+- Baker and Yacef (2009, *JEDM*):
 
-Consequence, impact, partnerships 
+> "In recent years, advances in computing and information technologies have radically expanded the data available to researchers and professionals in a wide variety of domains, from government and biotechnology, to business logistics and professional sports.
+>
+> Likewise, recent increases in instrumented educational software, online courses, as well as databases of student test scores, have created large repositories of educational data. The Educational Data Mining community seeks to use these data repositories to better understand learners and learning, and to develop computational approaches that combine data and theory to transform practice to benefit learners."
 
-Not one-off engagement
+- Long et al. (2011, *LAK 1*):
 
-## Sharing in closed ways
+> "The idea for establishing a special dedicated forum to researching learning analytics was motivated by several important indicators:
+>
+> 1. The growth of data surpasses the ability of organizations to make sense of it. This concern is particularly pronounced in relation to knowledge, teaching, and learning.
+>
+> 2. Learning institutions and corporations make little use of the data learners "throw off" in the process of accessing learning materials, interacting with educators and peers, and creating new content.
+>
+> 3. In an age where educational institutions are under growing pressure to reduce costs and increase efficiency, analytics promises to be an important lens through which to view and plan for change at course and institutions levels."
 
-Actually, other fields better here
+### Funding is tight
 
-Edu not great (TCR)
+Show NSF graphs, stories.
 
-Public goods 
+### Education is the focus of public attention and scrutiny
 
-## Commercial tools predominate
+Show ed tech backlash stories, declining enrollment.
 
-XX
+### Commercial tools predominate
 
-## Other fields think they have it covered
+XX.
 
-IGSDSP
+### Other fields think they have it covered
 
-## Oh, yeah, AI
+IGSDSP.
 
-It's a thing
+### Oh, yeah, AI
 
-## Capacities
+It's a thing. More on that in a bit, though.
 
-- Judgment about when to commit — developed by being close enough to practice that practice tells you
-- Relationships and sustained proximity — the precondition for the other two, not a peer of them
-- Disciplinary humility — knowing what to borrow and what to leave, which requires understanding both sides
+## In summary
+
+Lots of gaps to fill; lots of problems to address!
+
+| Gaps | Problems |
+|---|---|
+| The field is still niche | Extant solutions are complex and hard to use |
+| There are a lot of unmet data needs | Other fields have fundamental challenges (and strengths) |
+| There is still a _lot_ of Excel | Funding is tight |
+| There is a lot of interest on the part of educators and administrators | Education is the focus of public attention and scrutiny |
+| Researchers' tooling is still not meeting the markk | Commercial tools predominate |
+| Impact (finally?) matters | Other fields think they have it covered |
+| Sharing in closed ways | Oh, yeah, AI |
 
 ## Avenues
 
-Things the field can do 
+I don't plan to leave you hanging! There are things we can do!
 
 ## Right-sized problems
 
@@ -186,6 +234,8 @@ Transcripts of school boards
 
 ## Large scale policy analyses
 
+gap!
+
 ## Non tech centric uses of data 
 
 Quant and qual
@@ -202,11 +252,7 @@ Data literacy
 
 - **Tools and partnerships for practitioners**: administrators, principals, and policymakers sitting on data they cannot use, with massive unmet demand and almost no supply from the field. Cite the numbers.
 
-# Turn and talk
-
-What are important avenues for us?
-
- # A few words on AI (that haven't been said already)
+## A few words on AI (that haven't been said already)
 
  It can remove or engage us with practice
 
@@ -220,13 +266,37 @@ What are important avenues for us?
     - Get feedback
     - Know the right direction to go
 
-## A vision
+## The provocation
 
-We have a choice. Back to the initial framing - in or for?
+Back to the original question/tension --
 
-## Closing
+Are we an education branch of "data science", or are we more integrally educational? 
 
-At the end state what the field could look like in 5 and 10 years and what we need
+Let's perspective take to try to answer. 
+
+## Turn and talk 
+
+If we were someone like Cleveland, what would we say?
+
+If we were a parent, what would we say?
+
+Is there any gap between them?
+
+## Infrastructure 
+
+We need to continue the conversation
+
+This conference, here and now
+
+Critical question: XX (back to original framing)
+
+## In closing
+
+We can do rigorous and impactful work in practice
+
+Probably less of it
+
+We can build a field that fills gaps and addresses problems
 
 <!-- ===================================================================
 IMAGE LIBRARY — parking lot
