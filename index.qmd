@@ -1,24 +1,28 @@
 ---
-title: "Practice-based Educational Data Science: A Proposal for Our Emerging Field"
+title: "Practice-based Education Data Science: A Proposal for Our Emerging Field"
 subtitle: "A keynote presentation at the Stanford Education Data Science conference"
-date: "9:30-10:15am, May 27"
 author: "Joshua M. Rosenberg, Ph.D."
 format:
   revealjs:
-    theme: black
-    slide-number: true
+    theme: [simple, custom.scss]
+    slide-number: c/t
     incremental: false
     width: 1280
     height: 720
+    transition: none
+    auto-stretch: false
+    code-block-bg: false
 ---
 
-# Introduction
+# What is Education Data Science, Really?
 
-::: {.notes}
-In this talk, Joshua Rosenberg examines whether educational data science is primarily a methodological program that takes education as a use case, or work more deeply situated and contextualized in educaiton.
-:::
+## What do you _mean_ by ...
 
-## But what do you _mean_ by an outcome?
+<div style="text-align:center">
+***My goal is to improve educational _outcomes_.***
+***My goal is to _improve_ educational outcomes.***
+***My _goal_ is to improve educational outcomes.***
+</div>
 
 ::: {.notes}
 What is our field? This is meant to be a window and mirrow to the field - less about a study, more about the field.
@@ -32,48 +36,35 @@ But then they will also ask, what do you mean by improve? A harder question.
 And, even, what do you mean by "my goal"? At this point, I often found myself provoked and ready to abandon the conversation, but, on reflection, the questions are always thoughtful. 
 
 This talk is meant (or should I say, I mean for this talk!) to get a bit at something related - what are the underlying goals of what we call educational data science? And, what worldviews underly and support (or undercut) these goals?
+:::
 
-## Preopositions
-
-Though I'm not usually _that_ person, I do have a bit of a history with this issue/question
-
-![](/img/rmldt-1.png){width="70%"}
+## Perspectives
 
 ![](/img/rmldt-2.png){width="70%"}
 
-## A proposition
+<div style="text-align:center">
+## A question
 
+***Is EDS a methodological program that takes education as a use case, or is it work that is situated in educational contexts and accountable to its educational impacts?***
+</div>
+
+::: {.notes}
 But maybe that wasn't quite it --- it wasn't so much about method and pedagogy as about _in_ vs. _for_ education
 
-So the argument is: Is EDS a methodological program that takes education as a use case, or is it work that is situated in educational contexts and accountable to its educational impacts? 
-
 This talk argues the choice is impo and timely.
+:::
 
-# Turn and talk
-
-What brought you to EDS?
+# My pathway to the problem
 
 ## My background
 
-### Me!
-
-![](/img/schoolpicture.bmp){width="70%"}
-
----
-
-### My classroom!
-
 ![](/img/jr-classroom.jpg){width="70%"}
 
----
-
-### Excel
+## Excel
 
 ![](/img/excel.jpg){width="70%"}
 
----
-
-### Word Clouds
+## Word Clouds
 
 ![](/img/word-cloud-fuglei.png){width="70%"}
 
@@ -87,493 +78,211 @@ Another was seeing a colleague create an oft- (and I think correctly) bemoaned d
 Still another was laying in bed in graduate school looking at R code I wrote, that worked. It was eye opening; I wasn't trained as a programmer, but I became, over time, interested, and then a bit obsessed, for years reading every book I could find (I think literally) on R, statistics using R.
 :::
 
+## Software
+
+![](/img/tidylpa-website.png){width="70%"}
+
+## DSIEUR
+
+![](/img/sentiment-model-eq.png){width="70%"}
+
 ## CREDIBLE
 
-<!-- NOTE TO SELF:
-Could either keep CREDIBLE briefly here as background or return to it near the end as the concrete example of practice-based EDS.
-Possible later use: worked from teacher needs; designed data learning assessments; created a tool based on teachers' work; massive consenting process; brought it into classrooms; it broke; fixed it; then students used local creek / E. coli data to talk about swimming and a place they knew.
-Use this less as “look what we built” and more as “this is what practice-based EDS feels like: fragile, difficult, repair-oriented, and potentially consequential.”
-Add screenshot sequence if useful: bug in classroom -> fixed and running -> local creek / E. coli / swimming conversation -> teacher/student/expert feedback still being analyzed.
--->
+![](/img/js-photo.jpg){width="70%"}
 
-STICKER
+## A question
 
-![](/img/credible-group.jpg)
+<div style="text-align:center">
 
-![](/img/cld-bugs.png)
+***What is your pathway to education data science***
+</div>
 
-# Turn and talk
-
-What brings you to the EDS conference?
-
-# The Gaps and Problems
-
-## Gaps
-
-![alt](/img/eds-growth-abstract.png){width="72%"}
-
-- Still niche
-- Unmet data needs
-- Educator and administrator interest
-- Researcher tooling not meeting the mark
-- Need for impact and public goods
+# Timely Gaps and Problems
 
 ::: {.notes}
-Original detail to preserve:
 
-- The field is still niche.
-- There are a lot of unmet data needs.
-- There is still a _lot_ of Excel.
-- There is a lot of interest on the part of educators and administrators.
-  - My survey findings.
-  - Show interview data.
-- Researchers' tooling is still not meeting the markk.
-  - Show data.
-- Impact (finally?) matters.
-  - Consequence, impact, partnerships.
-  - Not one-off engagement.
-- Sharing in closed ways.
-  - Actually, other fields better here.
-  - Edu not great (TCR).
-  - Public goods.
+There are a lot! Let's highlight 3
+
 :::
 
-## Problems
+## Allied fields are doing good work
 
-- Extant solutions are complex and hard to use
-- Adjacent fields have strengths, but also limits
-- Funding is tight
-- Education is under public scrutiny
-- Commercial tools predominate
-- Other fields think they have it covered
-- Oh, yeah, AI
-
-::: {.notes}
-Original detail to preserve:
-
-- Extant solutions are complex and hard to use.
-  - BB quote.
-- Other fields have fundamental challenges (and strengths).
-  - Siemens and Baker (2012, *LAK 2*): emergence of big data, educational media, and EDM/LAK communities.
-  - Baker and Yacef (2009, *JEDM*): repositories of educational data and EDM's goal of understanding learning and transforming practice.
-  - Long et al. (2011, *LAK 1*): growth of data, limited institutional use of learner data, analytics as a lens for change.
-- Funding is tight.
-  - Show NSF graphs, stories.
-- Education is the focus of public attention and scrutiny.
-  - Show ed tech backlash stories, declining enrollment.
-- Commercial tools predominate.
-  - XX.
-- Other fields think they have it covered.
-  - IGSDSP.
-- Oh, yeah, AI.
-  - It's a thing. More on that in a bit, though.
-:::
-
-<!-- ORIGINAL EXPANDED GAPS AND PROBLEMS SECTION PRESERVED BELOW FOR REFERENCE
-
-# The Gaps and Problems
-
-## Gaps
-
-### The field is still niche
-
-![alt](/img/eds-growth-abstract.png)
-
-### There are a lot of unmet data needs
-
-There is not yet a shortage of data related needs and challenges.
-
-#### There is still a _lot_ of Excel.
-
-#### There is a lot of interest on the part of educators and administrators
-
-My survey findings.
-
-Show interview data.
-
-### Researchers' tooling is still not meeting the markk
-
-Show data.
-
-### Impact (finally?) matters
-
-Consequence, impact, partnerships.
-
-Not one-off engagement.
-
-### Sharing in closed ways
-
-Actually, other fields better here.
-
-Edu not great (TCR).
-
-Public goods.
-
-## Problems
-
-### Extant solutions are complex and hard to use
-
-BB quote.
-
-### Other fields have fundamental challenges (and strengths)
-
-- Siemens and Baker (2012, *LAK 2*):
-
-> "In education, the emergence of 'big data' through new extensive educational media, combined with advances in computation holds promise for improving learning processes in formal education, and beyond as well.
->
-> Increasingly, very large data sets are available from students’ interactions with educational software and online learning - among other sources - with public data repositories supporting researchers in obtaining this data.
->
-> Two distinct research communities, Educational Data Mining (EDM) and Learning Analytics and Knowledge (LAK), have developed in response."
-
-- Baker and Yacef (2009, *JEDM*):
-
-> "In recent years, advances in computing and information technologies have radically expanded the data available to researchers and professionals in a wide variety of domains, from government and biotechnology, to business logistics and professional sports.
->
-> Likewise, recent increases in instrumented educational software, online courses, as well as databases of student test scores, have created large repositories of educational data. The Educational Data Mining community seeks to use these data repositories to better understand learners and learning, and to develop computational approaches that combine data and theory to transform practice to benefit learners."
-
-- Long et al. (2011, *LAK 1*):
-
-> "The idea for establishing a special dedicated forum to researching learning analytics was motivated by several important indicators:
->
-> 1. The growth of data surpasses the ability of organizations to make sense of it. This concern is particularly pronounced in relation to knowledge, teaching, and learning.
->
-> 2. Learning institutions and corporations make little use of the data learners "throw off" in the process of accessing learning materials, interacting with educators and peers, and creating new content.
->
-> 3. In an age where educational institutions are under growing pressure to reduce costs and increase efficiency, analytics promises to be an important lens through which to view and plan for change at course and institutions levels."
-
-### Funding is tight
-
-Show NSF graphs, stories.
-
-### Education is the focus of public attention and scrutiny
-
-Show ed tech backlash stories, declining enrollment.
-
-### Commercial tools predominate
-
-XX.
-
-### Other fields think they have it covered
-
-IGSDSP.
-
-### Oh, yeah, AI
-
-It's a thing. More on that in a bit, though.
-
-## In summary
-
-Lots of gaps to fill; lots of problems to address!
-
-| Gaps | Problems |
-|—-|—-|
-| The field is still niche | Extant solutions are complex and hard to use |
-| There are a lot of unmet data needs | Other fields have fundamental challenges (and strengths) |
-| There is still a _lot_ of Excel | Funding is tight |
-| There is a lot of interest on the part of educators and administrators | Education is the focus of public attention and scrutiny |
-| Researchers' tooling is still not meeting the markk | Commercial tools predominate |
-| Impact (finally?) matters | Other fields think they have it covered |
-| Sharing in closed ways | Oh, yeah, AI |
+![](/img/eds-growth-abstract.png){width="70%"}
 
 
-END ORIGINAL EXPANDED SECTION -->
+## Need for impact
 
-## Avenues
+NSF, tech backlash
 
-<!-- NOTE TO SELF:
-Use this section less as a list of favorite project areas and more as a Cleveland-style design exercise.
-Cleveland's 2001 move: for data science to become a discipline, it had to broaden what counted as central work: methods, computing, applications, pedagogy, infrastructure / field-building, etc.
-My move: if education is not just a place where data science techniques are applied, but a consequential domain of practice, then EDS needs a broader sense of what kinds of work the field should value.
-Possible hinge line: What forms of educational data science work are needed for education to flourish?
+## Data needs unmet
 
-Additional shift: these avenues are not just examples of work EDS could do; they are examples of work educational data scientists may be uniquely suited to doing.
-The comparative advantage is the intersection: data science methods + educational context + concern for practice + capacity to build/share tools.
-Be generous to LA / LS / EDM: there is overlap, and many people move across communities. The point is not “they do not do this”; the point is that EDS can name this combination as central.
-Potential line: educational data science can occupy this middle space not as a compromise, but as its particular strength.
--->
+![](/img/intimidation-table.png){width="70%"}
 
-What kinds of work should educational data science take responsibility for?
+Jamie (Industry; Instructional Design): “**Educational data scientist is like a unicorn of five different roles all combined into one**. So they're a data engineer, and they are data analysts and they are data scientists, and they're learning scientist, and they are a researcher.”
 
-## Cleveland's challenge
+Staudt Willet and Rosenberg, 2024
 
-![](/img/cleveland-action-plan.png){width="55%"}
+# Cleveland's Challenge to Statisticians (and Us)
 
-Fields define what they value, teach, and support.
+## What impacts the work of the data analyst?
 
-What if we asked this for educational data science?
+Table
+
+Key quote about impact on practicing data analysts
 
 ## If education is the domain
+
+What if we asked this for educational data science?
 
 - Not only methods in an application area
 - A consequential domain of practice
 - A broader portfolio of work
 
-## Why educational data scientists?
+Five possible avenues -- someone might work on some of these and not others. That is fine!
 
-- Data science methods
-- Educational context
-- Concern for practice
-- Capacity to build and share tools
-
-## Five possible avenues
-
-1. Right-sized data problems
-2. Not ending with the journal article
-3. Data science education infrastructure
-4. Supporting practitioners
-5. Research-practice partnerships around data education
+The claim is about what the field as a whole should count as central.
 
 
-<!-- NOTE TO SELF:
-The following sections can stay loose / working rather than becoming a formal taxonomy. Maybe frame them as a field-level portfolio, not as things every person has to do.
-Current five possible avenues to make visible:
-1. Right-sized data problems: meso-sized problems, not grand transformation and not trivial summarization; problems large enough to matter and bounded enough to improve collaboratively.
-2. Not ending with the journal article: the article is one output, not the endpoint; translate, build, share, convene, test, and support use.
-3. Data science education infrastructure: tools, curricula, assessments, datasets, and learning environments for data science education.
-4. Supporting practitioners: helping educators, administrators, graduate students, and others work with data in modern, useful, context-sensitive ways.
-5. Research-practice partnerships around data education: sustained partnerships from which problems, tools, studies, and outputs can emerge.
-Key point: someone might work on some of these and not others. That is fine. The claim is about what the field as a whole should count as central.
--->
+# Five Avenues (Among Others)
+
+## There are examples
+
+**These can bring us closer to educational practice, be distinct from "general" data science, and be an area of comparative advantage.**
+
+1. **Right-sized data problems**
+1. **Data science education infrastructure**
+1. **Research-practice partnerships around data education**
+1. Not ending with the journal article
+1. Teaching practitioners and researchers
+
+I'll focus on three of these
 
 ## Right-sized data problems
 
-Problems large enough to matter, and bounded enough to work on with people in education.
+Blair (Higher Education; Administrator): *A lot of my job is taking data that the school generates and helping the students to better understand their progress and also helping the faculty to better understand how to assess students’ progress and better support them... ***It’s not even a very sophisticated analysis, but it's aggregating it together and presenting it to them in a way that they can take action on it.**
 
-<!-- NOTE TO SELF:
-This may be the cleanest first avenue. Define as meso-sized problems: not transforming education wholesale, not merely summarizing a data source.
-Examples: using feedback across multiple years to improve how a subject is taught; helping administrators make better use of data they already collect; helping educators use data collected throughout the year.
-Possible phrase: problems large enough to matter and bounded enough to work on with people in education.
--->
+Jamie (Industry, Learning Analytics): "And it's so so simple, **almost boringly simple.**"
 
-Iterate, make better
+Staudt Willet & Rosenberg (2024)
 
-## Not ending with the journal article
+::: {.notes}
+Starting with the problem 
+Reich talks about this
+:::
 
-The article is one output, not the endpoint.
+## Right-sized data problems
 
-Translate. Build. Share. Convene. Test.
+Agasisti and Bowers (2017) argued that the work of an educational data scientist would be “extremely delicate because it simultaneously necessitates the technical capacity for sophisticated data analysis and the sensibility for the specificities of the educational field” (p. 198).
+
+> "In recent years, **advances in computing and information technologies have radically expanded the data available to researchers and professionals in a wide variety of domains**, from government and biotechnology, to business logistics and professional sports.
+
+Baker and Yacef (2009, *JEDM*):
+
+::: {.notes}
+McFarland et al. (2021) argue that it is an umbrella --- broader than LAK and EDM
+:::
 
 ## Data science education infrastructure
+
+Teacher preparation - DS4E
+
+Cleveland mentioned! 
+
+Show survey findings 
 
 <!-- NOTE TO SELF:
 This can be part of “data science education infrastructure.”
 Claim: educational data scientists are especially well positioned here because data education is our purview in the way laboratory investigations are partly biologists’ purview.
 Could include tools, curricula, assessments, PD, and learning environments for data science education.
--->
 
-- Tools
-- Curricula
-- Assessments
-- Learning environments
-
-Teacher preparation: cite the numbers.
-
-Cleveland mentioned! 
-
-<!-- NOTE TO SELF:
 This may be the explicit Cleveland bridge.
 Not: “Cleveland mentioned pedagogy, so we should mention teacher education.”
 Rather: Cleveland shows how a field can ask what kinds of work its domain requires. Then ask that question for education.
 -->
 
+## Research-practice partnerships
 
-## Supporting practitioners
+RPP collaboratory
 
-Educators, administrators, graduate students, and others working with data.
+LEADS-DS
 
-<!-- NOTE TO SELF:
-This can be part of “supporting practitioners.”
-Literally teaching/supporting educators, administrators, graduate students, and others to work with data in more modern, useful, context-sensitive ways.
-This is not just service work; it is field-shaping capacity-building if EDS takes education seriously.
--->
+Trust, service --- and research
 
-Modern, useful, context-sensitive ways.
-
-## Local evidence use
-
-<!-- NOTE TO SELF:
-This can connect to right-sized data problems and/or supporting practitioners: use local data for decisions, improvement, and sensemaking.
-Possible line: education already produces data; the problem is often not absence of data, but the absence of usable routines, tools, and judgment for making it matter.
--->
-
-AskAboutEdu
-
-## Quick insights
-
-<!-- NOTE TO SELF:
-Could be an example of not ending with the journal article / creating public goods: fast, legible, useful analyses of public educational discourse or decisions.
--->
-
-Transcripts of school boards
-
-## Large scale policy analyses
-
-gap!
-
-## Non tech centric uses of data 
-
-Quant and qual
-
-## Modernizing quant methods
-
-Lots of work to do here
-
-## Ed admin and leaders prep
-
-Data literacy
-
-## Public goods and tools
-
-<!-- NOTE TO SELF:
-This is where “not ending with the journal article” can land most explicitly.
-Forms could include practitioner-facing articles, websites, repositories, tools, workshops, podcasts, documentation, and studies of whether these outputs actually matter in practice.
-Emphasize: tools are not automatically better than articles; the point is that journal articles should not always be the terminal product of work claiming educational consequence.
--->
-
-Practitioner-facing articles. Websites. Repositories. Tools. Workshops.
-
-Cite demand / supply numbers.
-
-## Research-practice partnerships around data education
-
-A structure from which other work can emerge.
+JS photo
 
 <!-- NOTE TO SELF:
 Possible fifth avenue. RPPs are not only a method or wrapper; they are a structure from which other work can come: right-sized problems, tools, studies, curricula, workshops, and public goods.
 This can bridge to CREDIBLE later as an example of promise + difficulty.
 -->
 
+## Not only these five
+
+1. Right-sized data problems
+1. Data science education infrastructure
+1. Research-practice partnerships around data education
+1. Not ending with the journal article
+1. Teaching practitioners and researchers
+6. ... (from the presentations today and tomorrow)
+7. ...
+
 ## A few words on AI (that haven't been said already)
 
-<!-- NOTE TO SELF:
-AI should intensify the main argument, not become a separate keynote.
-Possible framing: AI can either pull EDS further away from practice or force us closer to practice because context, iteration, checking, feedback, and judgment matter even more.
--->
+AI _can_ help us engage with practice more easily, or it can isolate us from avenues of work that can be impactful to teachers, learners, and educational systems
 
- It can remove or engage us with practice
+AI as a normal technology
 
- More "AI as a normal technology", perhaps a more impactful one than many we have recently seen, perhaps with spikey and hard-to-anticipate impacts --- but not fundamentally different
+# Back to the core question
 
- Repeatedly struck by how _not_ different AI coding is
-
-    - Understand context and problem
-    - Iterate (and iterate)
-    - Check
-    - Get feedback
-    - Know the right direction to go
-
-## The provocation
-
-<!-- NOTE TO SELF:
-This turn-and-talk can do the perspective-taking work: Cleveland-like disciplinary designer vs. parent / educator / public stakeholder.
-The gap between those perspectives is the point. If there is a gap, practice-based EDS is partly about narrowing it without giving up rigor.
-
-Possible additional prompt after the five avenues: What does educational data science include? What forms of work should this field take responsibility for?
-Then return to thesis: if we are only an application of data science in education, the methodological program may be enough; if we are a field, we need to articulate priorities beyond methods.
-Possible closing implication: practice-based educational data science may not be a niche within EDS; it may be what EDS becomes when it takes education seriously.
--->
-
-Back to the original question/tension --
-
-Are we an education branch of "data science", or are we more integrally educational? 
-
-Let's perspective take to try to answer. 
+***Is EDS a methodological program that takes education as a use case, or is it work that is situated in educational contexts and accountable to its educational impacts?***
 
 ## Turn and talk 
 
-What does educational data science include?
+If we replace "data analyst" with "data in education", what should our field do?
 
-What forms of work should this field take responsibility for?
+# An Example from Project CREDIBLE
 
-If we were someone like Cleveland, what would we say?
+## Starting with practitioner needs
 
-If we were a parent, what would we say?
+Jen photo
 
-Is there any gap between them?
+## Shiny + CODAP
 
-## Infrastructure 
-
-We need to continue the conversation
-
-This conference, here and now
-
-Critical question: XX (back to original framing)
-
-## In closing
-
-<!-- NOTE TO SELF:
-Closing claim to sharpen in my own language:
-Practice-based EDS may mean fewer clean outputs and fewer easily generalizable products, but the work may be more durable, accountable, and consequential.
-Return to the original question: are we applying data science to education, or building educational data science as work accountable to educational practice?
-Possible final claim: if education is the domain, practice is not optional; it is where the domain lives.
-Potential ending: educational data scientists are uniquely positioned to connect technical work, educational practice, practitioner capacity, and public value. That is not peripheral to the field. That may be the field.
--->
-
-We can do rigorous and impactful work in practice.
-
-Probably less of it.
-
-Maybe practice-based educational data science is what educational data science becomes when it takes education seriously.
-
-<!-- ===================================================================
-IMAGE LIBRARY — parking lot
-
-Every image in /img/ is listed below as ready-to-paste code. To use one,
-cut a line out of this comment block and drop it onto a slide. Adjust the
-width as needed (or delete `{width="..."}` for the image's natural size).
-
---- CLD / CREDIBLE project ---
-![](/img/credible-group.jpg){width="70%"}
-![](/img/cld-class.jpg){width="70%"}
-![](/img/cld-class-bug.jpg){width="70%"}
-![](/img/cld-group.jpg){width="70%"}
 ![](/img/cld-full.png){width="70%"}
-![](/img/cld-screens.png){width="80%"}
-![](/img/cld-query.png){width="80%"}
-![](/img/cld-bugs.png){width="45%"}
 
---- Data tools (CODAP, spreadsheets) ---
-![](/img/get-data.png){width="55%"}
-![](/img/codap-ag-data.jpeg){width="70%"}
-![](/img/codap-bar.jpeg){width="70%"}
-![](/img/art-and-data.jpeg){width="70%"}
-![](/img/messy-data.jpeg){width="70%"}
-![](/img/messy-desktop.png){width="80%"}
+## It failed
 
---- Classrooms & teaching ---
+![](/img/cld-class-bug.jpg){width="70%"}
+
+## Then we fixed it 
+
 ![](/img/science-classroom.jpg){width="70%"}
-![](/img/notebook-and-laptop.jpeg){width="55%"}
-![](/img/coach-students.jpeg){width="55%"}
 
---- Teacher professional development ---
-![](/img/pd-card-sort.jpeg){width="70%"}
-![](/img/pd-group-work.jpeg){width="70%"}
-![](/img/pd-laptop-diagram.jpeg){width="70%"}
-![](/img/pd-outdoor-pair.jpeg){width="70%"}
-![](/img/krebs-and-mertz.jpeg){width="70%"}
-![](/img/utk-composting-sign.jpeg){width="45%"}
+## Local water quality data
 
---- EDS field & literature ---
-![](/img/eds-growth-abstract.png){width="80%"}
-![](/img/eds-growth-thesaurus.png){width="80%"}
-![](/img/cleveland-action-plan.png){width="55%"}
-![](/img/cleveland-pedagogy.png){width="55%"}
-![](/img/eds-past-present-future.png){width="80%"}
-![](/img/eds-work-abstract.png){width="60%"}
-![](/img/eds-skills-chart.png){width="85%"}
-![](/img/software-use-table.png){width="85%"}
-![](/img/dsieur-cover.jpg){width="35%"}
+E coli
 
---- tidyLPA ---
-![](/img/tidylpa-paper.png){width="65%"}
-![](/img/tidylpa-paper-sidebar.png){width="75%"}
-![](/img/tidylpa-website.png){width="75%"}
+## Fragile but impactful
 
---- Sentiment & data-ethics research ---
-![](/img/sentiment-model-eq.png){width="45%"}
-![](/img/sentiment-variables-table.png){width="80%"}
-![](/img/sentiment-results-table.png){width="80%"}
-![](/img/public-sentiment-paper.png){width="65%"}
-![](/img/facebook-ethics-paper.png){width="70%"}
-![](/img/intimidation-table.png){width="70%"}
-==================================================================== --> 
+This combines multiple possible directions - RPPs, tool building, right sized data, DS infrastructure, sharing public tols
+
+This work is fragile, local, and contingent, but potentially impactful
+
+I call this work practice-based education data science
+
+# Conclusion
+
+## A choice!
+
+***Is EDS a methodological program that takes education as a use case, or is it work that is situated in educational contexts and accountable to its educational impacts?***
+
+We might call practice-based education data science, simply, education data science
+
+If education is the domain, practice is not optional; it is where the domain lives.
+
+Educational data scientists are uniquely positioned to connect technical work, educational practice, practitioner capacity, and public value.
+
+## Acknowledgements 
+
+Project CREDIBLE teachers around Knox County Schools, especially teacher leaders and Jen Sauer
+Zhen Xu, Cody Pritchard, Leah Rosenbaum, and Bradley Holtz at the University of Tennessee Knoxville spo
+NSF grant no. XX

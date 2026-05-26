@@ -1,0 +1,191 @@
+/*-- scss:defaults --*/
+
+// --- typography -----------------------------------------------------------
+
+$font-family-sans-serif:
+  "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif !default;
+$font-family-serif:
+  "Source Serif 4", "Source Serif Pro", Georgia, "Times New Roman", serif !default;
+$font-family-monospace:
+  "JetBrains Mono", "IBM Plex Mono", Menlo, Consolas, monospace !default;
+
+$presentation-heading-font: $font-family-serif;
+$presentation-heading-font-weight: 600;
+$presentation-heading-color: #1F1B16;
+$presentation-heading-line-height: 1.15;
+
+$presentation-h1-font-size: 1.9em;
+$presentation-h2-font-size: 1.4em;
+$presentation-h3-font-size: 1.15em;
+
+$presentation-font-size-root: 30px;
+$presentation-line-height: 1.5;
+
+$code-block-font-size: 0.62em;
+
+// --- color ----------------------------------------------------------------
+
+$body-bg:      #F8F6F1; // warm off-white
+$body-color:   #1F1B16; // soft black
+$link-color:   #6B3A2E; // muted oxblood
+$selection-bg: #E8DFCF; // dusty cream
+
+// muted = warm gray used for secondary text, dates, slide numbers
+$muted: #6B655C;
+
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+
+.reveal {
+  font-family: $font-family-sans-serif;
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// left-align everything; centered text is for ceremonies
+.reveal .slides { text-align: left; }
+
+// headings -----------------------------------------------------------------
+
+.reveal h1, .reveal h2, .reveal h3 {
+  letter-spacing: -0.012em;
+  text-transform: none;
+}
+
+// quiet hairline under subheadings; section (h1) slides stay clean
+.reveal h2 {
+  border-bottom: 1px solid rgba($body-color, 0.12);
+  padding-bottom: 0.18em;
+  margin-bottom: 0.6em;
+}
+
+.reveal .title-slide h1,
+.reveal section > h1 {
+  border-bottom: none;
+}
+
+// title slide --------------------------------------------------------------
+
+.reveal .title-slide h1 {
+  font-size: 2em;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 0.5em;
+}
+.reveal .title-slide .subtitle {
+  font-family: $font-family-serif;
+  font-style: italic;
+  font-weight: 400;
+  color: $muted;
+  font-size: 1.05em;
+  margin-bottom: 1.5em;
+}
+.reveal .title-slide .author,
+.reveal .title-slide .date,
+.reveal .title-slide .quarto-title-author-name {
+  font-family: $font-family-sans-serif;
+  font-size: 0.65em;
+  font-weight: 400;
+  color: $muted;
+}
+
+// inline text --------------------------------------------------------------
+
+.reveal em      { font-style: italic; }
+.reveal strong  { font-weight: 600; color: $body-color; }
+
+.reveal a {
+  color: $link-color;
+  text-decoration: none;
+  border-bottom: 1px solid rgba($link-color, 0.35);
+  transition: border-color 120ms ease;
+}
+.reveal a:hover { border-bottom-color: $link-color; }
+
+// blockquote — essay style
+.reveal blockquote {
+  font-family: $font-family-serif;
+  font-style: italic;
+  font-size: 0.92em;
+  line-height: 1.4;
+  color: rgba($body-color, 0.78);
+  border-left: 2px solid rgba($body-color, 0.18);
+  padding: 0.1em 0 0.1em 1em;
+  margin: 0.6em 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+// lists --------------------------------------------------------------------
+
+.reveal ul, .reveal ol { margin-left: 0.9em; }
+.reveal li             { margin-bottom: 0.28em; }
+.reveal li::marker     { color: rgba($body-color, 0.4); }
+
+// tables — journal style ---------------------------------------------------
+
+.reveal table {
+  font-size: 0.65em;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+  margin: 0.4em 0;
+}
+.reveal table thead th {
+  border-top: 1.5px solid $body-color;
+  border-bottom: 0.5px solid $body-color;
+  font-weight: 600;
+  text-align: left;
+  padding: 0.4em 0.9em;
+}
+.reveal table tbody td {
+  border-bottom: 0.5px solid rgba($body-color, 0.10);
+  padding: 0.32em 0.9em;
+}
+.reveal table tbody tr:last-child td {
+  border-bottom: 1.5px solid $body-color;
+}
+
+// images — no chrome
+.reveal img {
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  border-radius: 0;
+}
+
+// code ---------------------------------------------------------------------
+
+.reveal pre {
+  background: rgba($body-color, 0.04);
+  border: none;
+  border-radius: 4px;
+  padding: 0.8em 1em;
+  box-shadow: none;
+}
+.reveal code { font-family: $font-family-monospace; }
+
+// chrome — slide number, controls, progress --------------------------------
+
+.reveal .slide-number {
+  font-family: $font-family-monospace;
+  font-size: 0.55em;
+  letter-spacing: 0.02em;
+  color: $muted;
+  opacity: 0.55;
+  background: none;
+  bottom: 0.7em;
+  right: 0.9em;
+}
+
+.reveal .controls  { color: rgba($body-color, 0.35); }
+.reveal .progress  { color: rgba($link-color, 0.40); height: 2px; }
+
+// inline hr (---) — quiet divider
+.reveal hr {
+  border: none;
+  border-top: 1px solid rgba($body-color, 0.15);
+  margin: 0.8em 0;
+}
