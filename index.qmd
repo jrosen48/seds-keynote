@@ -5,7 +5,7 @@ date: "9:30-10:15am, May 27"
 author: "Joshua M. Rosenberg, Ph.D."
 format:
   revealjs:
-    theme: simple
+    theme: black
     slide-number: true
     incremental: false
     width: 1280
@@ -15,15 +15,12 @@ format:
 # Introduction
 
 ::: {.notes}
-In this talk, Joshua Rosenberg examines whether educational data science is primarily a methodological program that takes education as a use case, or work situated in educational contexts and accountable to educational outcomes. 
-
-Arguing that these paths lead to different kinds of work,  he will highlight key features of practice-based approaches
-
-reflect on how the field can maintain rigor while better serving educators and learners in an era of AI.
+In this talk, Joshua Rosenberg examines whether educational data science is primarily a methodological program that takes education as a use case, or work more deeply situated and contextualized in educaiton.
 :::
 
-## The Problem
+## But what do you _mean_ by an outcome?
 
+::: {.notes}
 What is our field? This is meant to be a window and mirrow to the field - less about a study, more about the field.
 
 I have a friend, and maybe you have a friend like this (or this person is you!) who is always interrogating and critiquing the subtle framing of research. If I say, for example, my goal is to improve educational outcomes, they will ask, of course:
