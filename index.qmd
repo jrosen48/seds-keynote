@@ -25,8 +25,6 @@ format:
 </div>
 
 ::: {.notes}
-What is our field? This is meant to be a window and mirrow to the field - less about a study, more about the field.
-
 I have a friend, and maybe you have a friend like this (or this person is you!) who is always interrogating and critiquing the subtle framing of research. If I say, for example, my goal is to improve educational outcomes, they will ask, of course:
 
 which outcomes? A totally reasonable question. 
@@ -35,18 +33,12 @@ But then they will also ask, what do you mean by improve? A harder question.
 
 And, even, what do you mean by "my goal"? At this point, I often found myself provoked and ready to abandon the conversation, but, on reflection, the questions are always thoughtful. 
 
-This talk is meant (or should I say, I mean for this talk!) to get a bit at something related - what are the underlying goals of what we call educational data science? And, what worldviews underly and support (or undercut) these goals?
+This talk is meant (or should I say, I mean for this talk!) to get a bit at something related - what are the underlying goals of what we call educational data science?
 :::
 
 ## Perspectives
 
 ![](/img/rmldt-2.png){width="70%"}
-
-<div style="text-align:center">
-## A question
-
-***Is EDS a methodological program that takes education as a use case, or is it work that is situated in educational contexts and accountable to its educational impacts?***
-</div>
 
 ::: {.notes}
 But maybe that wasn't quite it --- it wasn't so much about method and pedagogy as about _in_ vs. _for_ education
@@ -54,11 +46,23 @@ But maybe that wasn't quite it --- it wasn't so much about method and pedagogy a
 This talk argues the choice is impo and timely.
 :::
 
-# My pathway to the problem
+## The question motivating this talk
+
+<div style="text-align:center">
+## A question
+
+***Is EDS a methodological program that takes education as a use case, or is it work that is situated in educational contexts and accountable to its educational impacts?***
+</div>
+
+# My pathway to the question
 
 ## My background
 
 ![](/img/jr-classroom.jpg){width="70%"}
+
+::: {.notes}
+I'll share very briefly where I am coming from. I was a science teacher, and I intended for that to be my career. I am still deeply tied to K-12 education and K-12 science education. I am PI for an NSF CAREER project that - broadly - supports science teachers to take up and to teach about data science ideas. My wife is a librarian working at a public school and so I engage, well, deeply through her and that work.
+:::
 
 ## Excel
 
@@ -68,8 +72,13 @@ This talk argues the choice is impo and timely.
 
 ![](/img/word-cloud-fuglei.png){width="70%"}
 
+## Text and science classroom data
+
+Krist
+
+![](/img/word-cloud-fuglei.png){width="70%"}
+
 ::: {.notes}
-I'll share very briefly where I am coming from. I was a science teacher, and I intended for that to be my career. I am still deeply tied to K-12 education and K-12 science education. I am PI for an NSF CAREER project that - broadly - supports science teachers to take up and to teach about data science ideas. My wife is a librarian working at a public school and so I engage, well, deeply through her and that work.
 
 I came to data science through science education. I think of the spark being seeing students changing the colors of graphs they made in Excel, and seeing them relate to their product --- a small but meaningful relationship to data; claiming a relationship.
 
@@ -78,23 +87,44 @@ Another was seeing a colleague create an oft- (and I think correctly) bemoaned d
 Still another was laying in bed in graduate school looking at R code I wrote, that worked. It was eye opening; I wasn't trained as a programmer, but I became, over time, interested, and then a bit obsessed, for years reading every book I could find (I think literally) on R, statistics using R.
 :::
 
+## Teacher education
+
+UTK
+
+## Public sentiment toward the NGSS
+
+![](/img/tidylpa-website.png){width="70%"}
+
 ## Software
 
 ![](/img/tidylpa-website.png){width="70%"}
+
+::: {.notes}
+
+hard to explain to colleagues!
+:::
+
 
 ## DSIEUR
 
 ![](/img/sentiment-model-eq.png){width="70%"}
 
+::: {.notes}
+
+easier to explain
+
+not the best programmer, not the best teacher educator
+:::
+
 ## CREDIBLE
 
 ![](/img/js-photo.jpg){width="70%"}
 
-## A question
+# Turn and talk
 
 <div style="text-align:center">
 
-***What is your pathway to education data science***
+***What was your path to education data science?***
 </div>
 
 # Timely Gaps and Problems
@@ -118,17 +148,17 @@ NSF, tech backlash
 
 ![](/img/intimidation-table.png){width="70%"}
 
-Jamie (Industry; Instructional Design): “**Educational data scientist is like a unicorn of five different roles all combined into one**. So they're a data engineer, and they are data analysts and they are data scientists, and they're learning scientist, and they are a researcher.”
-
-Staudt Willet and Rosenberg, 2024
+QUOTE from workshop paper (Staudt Willet and Rosenberg, 2025)
 
 # Cleveland's Challenge to Statisticians (and Us)
 
 ## What impacts the work of the data analyst?
 
-Table
-
 Key quote about impact on practicing data analysts
+
+## Data Science work
+
+Table
 
 ## If education is the domain
 
@@ -142,20 +172,17 @@ Five possible avenues -- someone might work on some of these and not others. Tha
 
 The claim is about what the field as a whole should count as central.
 
-
 # Five Avenues (Among Others)
 
 ## There are examples
 
 **These can bring us closer to educational practice, be distinct from "general" data science, and be an area of comparative advantage.**
 
-1. **Right-sized data problems**
-1. **Data science education infrastructure**
-1. **Research-practice partnerships around data education**
-1. Not ending with the journal article
+1. Right-sized data problems
+1. Data science education infrastructure
+1. Research-practice partnerships around data education
+1. Thinking about impact beyond journals articles
 1. Teaching practitioners and researchers
-
-I'll focus on three of these
 
 ## Right-sized data problems
 
@@ -215,6 +242,15 @@ Possible fifth avenue. RPPs are not only a method or wrapper; they are a structu
 This can bridge to CREDIBLE later as an example of promise + difficulty.
 -->
 
+## Thinking about impact beyond journals articles
+
+SEDA
+EdTechBooks
+
+## Teaching practitioners and researchers
+
+Buffalo, Clemson, UTK
+
 ## Not only these five
 
 1. Right-sized data problems
@@ -227,9 +263,11 @@ This can bridge to CREDIBLE later as an example of promise + difficulty.
 
 ## A few words on AI (that haven't been said already)
 
-AI _can_ help us engage with practice more easily, or it can isolate us from avenues of work that can be impactful to teachers, learners, and educational systems
+AI is many things; this is _not_ a talk about AI
 
-AI as a normal technology
+But to the key point, looking at these five, AI _can_ help us engage with practice more easily, or it can isolate us from avenues of work that can be impactful to teachers, learners, and educational systems
+
+AI as an acceleration but also as a normal technology
 
 # Back to the core question
 
@@ -237,9 +275,13 @@ AI as a normal technology
 
 ## Turn and talk 
 
-If we replace "data analyst" with "data in education", what should our field do?
+<div style="text-align:center">
 
-# An Example from Project CREDIBLE
+If our northstar is "impacting the use of data in education", what should we prioritize?
+
+</div>
+
+# An Example
 
 ## Starting with practitioner needs
 
@@ -271,15 +313,25 @@ I call this work practice-based education data science
 
 # Conclusion
 
-## A choice!
+## A choice
 
 ***Is EDS a methodological program that takes education as a use case, or is it work that is situated in educational contexts and accountable to its educational impacts?***
 
+My claim is practice-based education data science is a way to choose the former.
+
+::: {.notes}
 We might call practice-based education data science, simply, education data science
 
 If education is the domain, practice is not optional; it is where the domain lives.
 
 Educational data scientists are uniquely positioned to connect technical work, educational practice, practitioner capacity, and public value.
+:::
+
+## A call
+
+Value work that emphasizes impact, partnership, and the data-related problems teachers, students, and others in education truly face.
+
+Do work that shows us what this looks like!
 
 ## Acknowledgements 
 
