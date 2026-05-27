@@ -64,7 +64,7 @@ format:
 
 ## DSIEUR
 
-![](/img/dsieur-cover.jpg){width="70%"}
+![](/img/dsieur-cover.jpg){height="50%"}
 
 ## CREDIBLE
 
