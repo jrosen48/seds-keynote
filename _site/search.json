@@ -746,7 +746,7 @@
     "href": "index.html#acknowledgements",
     "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
     "section": "Acknowledgements",
-    "text": "Acknowledgements\nProject CREDIBLE teachers around Knox County Schools, especially teacher leaders and Jen Sauer\nZhen Xu, Cody Pritchard, Leah Rosenbaum, and Bradley Holtz at the University of Tennessee Knoxville\nThanks to many others, including my friends and colleagues here today, who have shaped my thinking and supported my work\nThis material is based upon work supported by the National Science Foundation under Grant No. 2239152.\nContact: jrosenb8@utk.edu Web: https://joshuamrosenberg.com"
+    "text": "Acknowledgements\nProject CREDIBLE teachers, especially teacher leaders and Jen Sauer\nZhen Xu, Cody Pritchard, Leah Rosenbaum, and Bradley Holtz at the University of Tennessee, Knoxville\nThanks to many others, including my friends and colleagues here today, who have shaped my thinking and supported my work\nThis material is based upon work supported by the National Science Foundation under Grant No. 2239152.\nContact: jrosenb8@utk.edu Web/slides: https://joshuamrosenberg.com"
   },
   {
     "objectID": "index.html#education-specific-activities",
@@ -1110,6 +1110,13 @@
     "href": "index.html#a-call-to-myself-and-others",
     "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
     "section": "A call (to myself and others)",
-    "text": "A call (to myself and others)\nLet’s learn from one another during these two days and shape a field that addresses important and timely problems and makes a sustained, positive impact on education."
+    "text": "A call (to myself and others)\nLet’s build a field and community truly at the intersection of data science and education; we can call that Education Data Science\nLet’s prioritize the extent to which teachers, learners, and leaders in educational systems can learn from data"
+  },
+  {
+    "objectID": "index.html#a-few-practical-ideas",
+    "href": "index.html#a-few-practical-ideas",
+    "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
+    "section": "A few practical ideas",
+    "text": "A few practical ideas\nPartner with teacher education or curriculum and instruction colleagues (and, partner with Education Data Scientists!)\nShare ideas with (or get ideas from) practitioners\nBuild partnerships and public goods from which research can come"
   }
 ]

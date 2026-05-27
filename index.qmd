@@ -4,7 +4,7 @@ subtitle: "A keynote presentation at the Stanford Education Data Science confere
 author: "Joshua M. Rosenberg, Ph.D."
 format:
   revealjs:
-    theme: [simple, custom]
+    theme: simple
     slide-number: c/t
     incremental: false
     width: 1280
@@ -369,19 +369,29 @@ How seriously is education practice taken? **This can take many different forms 
 
 *A practical test*: what would this look like in a school or in a district office?
 
+## A few practical ideas
+
+Partner with teacher education or curriculum and instruction colleagues (*and*, partner with Education Data Scientists!)
+
+Share ideas with (or get ideas from) practitioners
+
+Build partnerships and public goods from which research can come
+
 ## A call (to myself and others)
 
-Let's learn from one another during these two days and shape a field that addresses important and timely problems and makes a sustained, positive impact on education.
+Let's build a field and community truly at the intersection of data science and education; we can call that Education Data Science
+
+Let's prioritize **the extent to which teachers, learners, and leaders in educational systems can learn from data**
 
 ## Acknowledgements 
 
-Project CREDIBLE teachers around Knox County Schools, especially teacher leaders and Jen Sauer
+Project CREDIBLE teachers, especially teacher leaders and Jen Sauer
 
-Zhen Xu, Cody Pritchard, Leah Rosenbaum, and Bradley Holtz at the University of Tennessee Knoxville
+Zhen Xu, Cody Pritchard, Leah Rosenbaum, and Bradley Holtz at the University of Tennessee, Knoxville
 
 Thanks to many others, including my friends and colleagues here today, who have shaped my thinking and supported my work
 
 This material is based upon work supported by the National Science Foundation under Grant No. 2239152.
 
 Contact: jrosenb8@utk.edu 
-Web: https://joshuamrosenberg.com
+Web/slides: https://joshuamrosenberg.com
