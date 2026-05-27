@@ -8,6 +8,7 @@ title = "seds-keynote-2026-05-27"
 files = [
     "/index.qmd",
     "/_quarto.yml",
+    "/custom.scss",
     "/img/jr-classroom.jpg",
     "/img/schoolpicture.bmp",
     "/img/excel.jpg",

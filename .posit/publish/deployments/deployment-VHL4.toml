@@ -10,8 +10,8 @@ id = "019e621e-300e-5c0e-ad7c-81229ebc8645"
 dashboard_url = "https://connect.posit.cloud/joshuafrosenberg/content/019e621e-300e-5c0e-ad7c-81229ebc8645"
 direct_url = "https://019e621e-300e-5c0e-ad7c-81229ebc8645.share.connect.posit.cloud"
 logs_url = "https://connect.posit.cloud/joshuafrosenberg/content/019e621e-300e-5c0e-ad7c-81229ebc8645/history"
-deployed_at = "2026-05-27T05:13:49.519Z"
-bundle_id = "019e67d7-8da6-569b-1c7a-7be44d2abf41"
+deployed_at = "2026-05-27T14:31:03.447Z"
+bundle_id = "019e69d4-ead1-b2f8-1aa1-bfaf7878657e"
 files = [
     ".posit/publish/SEDS Keynote-UEDT.toml",
     ".posit/publish/deployments/deployment-VHL4.toml",
@@ -129,4 +129,9 @@ files = [
 ]
 validate = true
 product_type = "connect_cloud"
+
+[deployment_error]
+code = "deployFailed"
+message = "Unable to render: Unable to render your content. Please check the logs for more information."
+operation = "publish"
 

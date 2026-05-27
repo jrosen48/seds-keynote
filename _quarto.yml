@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - custom.scss
 
 website:
   title: "My Presentation"

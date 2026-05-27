@@ -4,7 +4,9 @@ subtitle: "A keynote presentation at the Stanford Education Data Science confere
 author: "Joshua M. Rosenberg, Ph.D."
 format:
   revealjs:
-    theme: simple
+    theme:
+      - simple
+      - custom.scss
     slide-number: c/t
     incremental: false
     width: 1280
@@ -24,25 +26,11 @@ format:
 <p class="fragment"><em><strong>My <u>goal</u> is to improve educational outcomes.</strong></em></p>
 </div>
 
-::: {.notes}
-I have a friend, and maybe you have a friend like this (or this person is you!) who is always interrogating and critiquing the subtle framing of research. If I say, for example, my goal is to improve educational outcomes, they will ask, of course:
-
-which outcomes? A totally reasonable question. 
-
-But then they will also ask, what do you mean by improve? A harder question.
-
-And, even, what do you mean by "my goal"? At this point, I often found myself provoked and ready to abandon the conversation, but, on reflection, the questions are always thoughtful. 
-
-This talk is meant (or should I say, I mean for this talk!) to get a bit at something related - what are the underlying goals of what we call educational data science?
-
-By practice-based Education Data Science, I mean work where educational practice is not merely the site of application, but a source of problems, standards of usefulness, and accountability.
-:::
-
 ## The question motivating this talk
 
 <div style="text-align:center; font-size: 1.3em;">
 
-***Is Education Data Science a methodological program that takes education as a use case — or is educational practice a source of problems, standards, and accountability?***
+***Is Education Data Science a methodological program that takes education as a use case, or is it a field situated and contextualized in educational practice in more integral ways?***
 
 </div>
 
@@ -62,28 +50,9 @@ By practice-based Education Data Science, I mean work where educational practice
 
 ::::
 
-::: {.notes}
-I'll share very briefly where I am coming from. I was a science teacher, and I intended for that to be my career. I am still deeply tied to K-12 education and K-12 science education. I am PI for an NSF CAREER project that - broadly - supports science teachers to take up and to teach about data science ideas. My wife is a librarian working at a public school and so I engage, well, deeply through her and that work.
-:::
-
 ## Seeing my students use Excel
 
 ![](/img/excel.jpg){width="70%"}
-
-## Seeing peers create a simple visualization through code
-
-![](/img/word-cloud-fuglei.png){width="70%"}
-
-[From [the Resilient Educator](https://resilienteducator.com/classroom-resources/word-clouds-writing/)]{.smaller}
-
-::: {.notes}
-
-I came to data science through science education. I think of the spark being seeing students changing the colors of graphs they made in Excel, and seeing them relate to their product --- a small but meaningful relationship to data; claiming a relationship.
-
-Another was seeing a colleague create an oft- (and I think correctly) bemoaned data visualization of text data, a word cloud. But they were so proud they created - coded - it. 
-
-Still another was laying in bed in graduate school looking at R code I wrote, that worked. It was eye opening; I wasn't trained as a programmer, but I became, over time, interested, and then a bit obsessed, for years reading every book I could find (I think literally) on R, statistics using R.
-:::
 
 ## Teacher education
 
@@ -93,22 +62,9 @@ Still another was laying in bed in graduate school looking at R code I wrote, th
 
 ![](/img/tidylpa-website.png){width="70%"}
 
-::: {.notes}
-
-hard to explain to colleagues!
-:::
-
-
 ## DSIEUR
 
 ![](/img/dsieur-cover.jpg){width="70%"}
-
-::: {.notes}
-
-easier to explain
-
-not the best programmer, not the best teacher educator
-:::
 
 ## CREDIBLE
 
@@ -124,20 +80,7 @@ not the best programmer, not the best teacher educator
 
 # Three pressures make this choice urgent
 
-::: {.notes}
-
-There are a lot! Let's highlight 3
-
-:::
-
-## Funding cuts and the need to show impact
-
-![](/img/nsf%20edu%20funding.png){width="70%"}
-
-[From [Grant Witness](https://grant-witness.us/funding_curves_nsf.html)]{.smaller}
-
-## Educator and student data needs unmet
-
+## Funding
 :::: {.columns}
 
 ::: {.column width="60%"}
@@ -210,37 +153,26 @@ There are a lot! Let's highlight 3
 
 ## If education is the domain
 
-What if we judged our field by **how much teachers, learners, and leaders in educational systems can learn from data**?
+- What if we judged our field by *how much teachers, learners, and leaders in educational systems can learn from data*?
 
-I argue that this is practice-based Education Data Science
+- I argue that this is an orientation, **practice-based Education Data Science***
 
-What would the areas for an Education Data Science discipline (or program or department) be?
+- What would the areas for an Education Data Science discipline be?
 
-# Five kinds of work this orientation makes visible
+# Several kinds of work this orientation makes visible
 
-:::{.notes}
-**These can bring us closer to educational practice, be distinct from "general" data science, and be an area of comparative advantage.**
-:::
-
-## These are just examples --- it's up to us to flesh out
+## These are just examples
 
 1. Right-sized data problems
 1. Data science education infrastructure
-1. Research-practice partnerships around data education
-1. Thinking about impact beyond journals articles
-1. Teaching practitioners and researchers
+1. Research-practice partnerships around data needs
+1. Building public goods
 
 ## Right-sized data problems
 
 Blair (Higher Education; Administrator): *A lot of my job is taking data that the school generates and helping the students to better understand their progress and also helping the faculty to better understand how to assess students’ progress and better support them... ***It’s not even a very sophisticated analysis, but it's aggregating it together and presenting it to them in a way that they can take action on it.**
 
 [Staudt Willet and Rosenberg, in preparation]{.smaller}
-
-:::{.notes}
-
-Jamie (Industry, Learning Analytics): "And it's so so simple, **almost boringly simple.**"
-
-:::
 
 ## Right-sized data problems
 
@@ -264,28 +196,18 @@ The work of an educational data scientist is **“extremely delicate because it 
 
 ## Data science education infrastructure
 
-![](/img/program%20adoption.png){width="70%"}
+![](/img/cld.png){width="70%"}
 
-<!-- NOTE TO SELF:
-This can be part of “data science education infrastructure.”
-Claim: educational data scientists are especially well positioned here because data education is our purview in the way laboratory investigations are partly biologists’ purview.
-Could include tools, curricula, assessments, PD, and learning environments for data science education.
-
-This may be the explicit Cleveland bridge.
-Not: “Cleveland mentioned pedagogy, so we should mention teacher education.”
-Rather: Cleveland shows how a field can ask what kinds of work its domain requires. Then ask that question for education.
--->
-
-## Research-practice partnerships
+## Research-practice partnerships around data needs
 
 ![](/img/leads%20ds.png){width="70%"}
 
-## Thinking about impact beyond journal articles
+## Building public goods
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-![](/img/cepa.png){width="100%"}
+![](/img/irw.png){width="70%"}
 :::
 
 ::: {.column width="50%"}
@@ -294,31 +216,17 @@ Rather: Cleveland shows how a field can ask what kinds of work its domain requir
 
 ::::
 
-## Teaching practitioners and researchers
-
-:::: {.columns}
-
-::: {.column width="50%"}
-![](/img/buffalo.png){width="100%"}
-:::
-
-::: {.column width="50%"}
-![](/img/cade.png){width="100%"}
-:::
-
-::::
-
 ## A few words on AI (that haven't been said already)
 
 AI _can_ bring us **closer to practice** —
 
-or it can make it easier to **never engage with it at all**.
+or it can make it easier to **engage less or not at all**.
 
 # Back to the core question
 
 <div style="text-align:center; font-size: 1.3em;">
 
-***Is Education Data Science a methodological program that takes education as a use case — or is educational practice a source of problems, standards, and accountability?***
+***Is Education Data Science a methodological program that takes education as a use case, or is it a field situated and contextualized in educational practice in more integral ways?***
 
 </div>
 
@@ -331,17 +239,17 @@ or it can make it easier to **never engage with it at all**.
 
 </div>
 
-# One worked example
+# One (humble) example
 
-## Starting with practitioner needs for water quality data
+## Starting with needs for water quality data
 
 ![](/img/Image-1.jpg){width="70%"}
 
-## Shiny + CODAP
+## Shiny app + CODAP
 
 ![](/img/cld-full.png){width="70%"}
 
-## It failed
+## It failed!
 
 ![](/img/cld-class-bug.jpg){width="70%"}
 
@@ -349,7 +257,7 @@ or it can make it easier to **never engage with it at all**.
 
 ![](/img/science-classroom.jpg){width="70%"}
 
-## Students figured something out that was not known by others
+## Students figured something new out
 
 ![](/img/e coli.jpg){width="70%"}
 

@@ -235,7 +235,7 @@
     "href": "index.html#a-few-words-on-ai-that-havent-been-said-already",
     "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
     "section": "A few words on AI (that haven’t been said already)",
-    "text": "A few words on AI (that haven’t been said already)\nAI can bring us closer to practice —\nor it can make it easier to never engage with it at all."
+    "text": "A few words on AI (that haven’t been said already)\nAI can bring us closer to practice —\nor it can make it easier to engage less or not at all."
   },
   {
     "objectID": "index.html#the-provocation",
@@ -277,7 +277,7 @@
     "href": "index.html#if-education-is-the-domain",
     "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
     "section": "If education is the domain",
-    "text": "If education is the domain\nWhat if we judged our field by how much teachers, learners, and leaders in educational systems can learn from data?\nI argue that this is practice-based Education Data Science\nWhat would the areas for an Education Data Science discipline (or program or department) be?"
+    "text": "If education is the domain\n\nWhat if we judged our field by how much teachers, learners, and leaders in educational systems can learn from data?\nI argue that this is an orientation, practice-based Education Data Science*\nWhat would the areas for an Education Data Science discipline be?"
   },
   {
     "objectID": "index.html#why-educational-data-scientists",
@@ -298,7 +298,7 @@
     "href": "index.html#right-sized-data-problems",
     "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
     "section": "Right-sized data problems",
-    "text": "Right-sized data problems\nBlair (Higher Education; Administrator): A lot of my job is taking data that the school generates and helping the students to better understand their progress and also helping the faculty to better understand how to assess students’ progress and better support them… It’s not even a very sophisticated analysis, but it’s aggregating it together and presenting it to them in a way that they can take action on it.\nStaudt Willet and Rosenberg, in preparation\n\nJamie (Industry, Learning Analytics): “And it’s so so simple, almost boringly simple.”"
+    "text": "Right-sized data problems\nBlair (Higher Education; Administrator): A lot of my job is taking data that the school generates and helping the students to better understand their progress and also helping the faculty to better understand how to assess students’ progress and better support them… It’s not even a very sophisticated analysis, but it’s aggregating it together and presenting it to them in a way that they can take action on it.\nStaudt Willet and Rosenberg, in preparation"
   },
   {
     "objectID": "index.html#not-ending-with-the-journal-article",
@@ -396,7 +396,7 @@
     "href": "index.html#dsieur",
     "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
     "section": "DSIEUR",
-    "text": "DSIEUR\n\n\neasier to explain\nnot the best programmer, not the best teacher educator"
+    "text": "DSIEUR"
   },
   {
     "objectID": "index.html#ethics-data",
@@ -417,7 +417,7 @@
     "href": "index.html#software",
     "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
     "section": "Software",
-    "text": "Software\n\n\nhard to explain to colleagues!"
+    "text": "Software"
   },
   {
     "objectID": "index.html#public-sentiment",
@@ -445,7 +445,7 @@
     "href": "index.html#what-do-you-mean-by",
     "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
     "section": "What do you mean by …",
-    "text": "What do you mean by …\n\n\nMy goal is to improve educational outcomes.\n\n\nMy goal is to improve educational outcomes.\n\n\nMy goal is to improve educational outcomes.\n\n\n\nI have a friend, and maybe you have a friend like this (or this person is you!) who is always interrogating and critiquing the subtle framing of research. If I say, for example, my goal is to improve educational outcomes, they will ask, of course:\nwhich outcomes? A totally reasonable question.\nBut then they will also ask, what do you mean by improve? A harder question.\nAnd, even, what do you mean by “my goal”? At this point, I often found myself provoked and ready to abandon the conversation, but, on reflection, the questions are always thoughtful.\nThis talk is meant (or should I say, I mean for this talk!) to get a bit at something related - what are the underlying goals of what we call educational data science?\nBy practice-based Education Data Science, I mean work where educational practice is not merely the site of application, but a source of problems, standards of usefulness, and accountability."
+    "text": "What do you mean by …\n\n\nMy goal is to improve educational outcomes.\n\n\nMy goal is to improve educational outcomes.\n\n\nMy goal is to improve educational outcomes."
   },
   {
     "objectID": "index.html#perspectives",
@@ -703,8 +703,8 @@
     "objectID": "index.html#it-failed",
     "href": "index.html#it-failed",
     "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
-    "section": "It failed",
-    "text": "It failed"
+    "section": "It failed!",
+    "text": "It failed!"
   },
   {
     "objectID": "index.html#then-we-fixed-it",
@@ -802,7 +802,7 @@
     "href": "index.html#the-question-motivating-this-talk",
     "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
     "section": "The question motivating this talk",
-    "text": "The question motivating this talk\n\nIs Education Data Science a methodological program that takes education as a use case — or is educational practice a source of problems, standards, and accountability?"
+    "text": "The question motivating this talk\n\nIs Education Data Science a methodological program that takes education as a use case, or is it a field situated and contextualized in educational practice in more integral ways?"
   },
   {
     "objectID": "index.html#text-and-science-classroom-data",
@@ -879,7 +879,7 @@
     "href": "index.html#my-background-science-teaching",
     "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
     "section": "My background — science teaching!",
-    "text": "My background — science teaching!\n\n\n\n\n\n\n\nI’ll share very briefly where I am coming from. I was a science teacher, and I intended for that to be my career. I am still deeply tied to K-12 education and K-12 science education. I am PI for an NSF CAREER project that - broadly - supports science teachers to take up and to teach about data science ideas. My wife is a librarian working at a public school and so I engage, well, deeply through her and that work."
+    "text": "My background — science teaching!"
   },
   {
     "objectID": "index.html#excelation-at-the-stanford-education-data-science-conference",
@@ -900,7 +900,7 @@
     "href": "index.html#seeing-peers-create-a-simple-visualization-through-code",
     "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
     "section": "Seeing peers create a simple visualization through code",
-    "text": "Seeing peers create a simple visualization through code\n\nFrom the Resilient Educator\n\nI came to data science through science education. I think of the spark being seeing students changing the colors of graphs they made in Excel, and seeing them relate to their product — a small but meaningful relationship to data; claiming a relationship.\nAnother was seeing a colleague create an oft- (and I think correctly) bemoaned data visualization of text data, a word cloud. But they were so proud they created - coded - it.\nStill another was laying in bed in graduate school looking at R code I wrote, that worked. It was eye opening; I wasn’t trained as a programmer, but I became, over time, interested, and then a bit obsessed, for years reading every book I could find (I think literally) on R, statistics using R."
+    "text": "Seeing peers create a simple visualization through code\n\nFrom the Resilient Educator"
   },
   {
     "objectID": "index.html#need-for-impact-amidst-funding-cut",
@@ -942,7 +942,7 @@
     "href": "index.html#educator-and-student-data-needs-unmet",
     "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
     "section": "Educator and student data needs unmet",
-    "text": "Educator and student data needs unmet\n\n\n\n“I really do not understand the statistical stuff. I might as well be reading Russian.”\n\n\n“It really freaks me out. I am not strong at math or with numbers.”\n\n\n“Some of the programs, such as R, are a little intimidating.”\n\n\nTechnical factors were the most common source of intimidation:\n37 of 44 participants (84%)\n\nStaudt Willet and Rosenberg, 2025"
+    "text": "Educator and student data needs unmet\n\nRosenberg et al. (2022)"
   },
   {
     "objectID": "index.html#educator-and-studentdata-needs-unmet",
@@ -1118,5 +1118,54 @@
     "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
     "section": "A few practical ideas",
     "text": "A few practical ideas\nPartner with teacher education or curriculum and instruction colleagues (and, partner with Education Data Scientists!)\nShare ideas with (or get ideas from) practitioners\nBuild partnerships and public goods from which research can come"
+  },
+  {
+    "objectID": "index.html#funding",
+    "href": "index.html#funding",
+    "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
+    "section": "Funding",
+    "text": "Funding\n\n\n\n“I really do not understand the statistical stuff. I might as well be reading Russian.”\n\n\n“It really freaks me out. I am not strong at math or with numbers.”\n\n\n“Some of the programs, such as R, are a little intimidating.”\n\n\nTechnical factors were the most common source of intimidation:\n37 of 44 participants (84%)\n\nStaudt Willet and Rosenberg, 2025"
+  },
+  {
+    "objectID": "index.html#these-are-just-examples",
+    "href": "index.html#these-are-just-examples",
+    "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
+    "section": "These are just examples",
+    "text": "These are just examples\n\nRight-sized data problems\nData science education infrastructure\nResearch-practice partnerships around data needs\nBuilding public goods"
+  },
+  {
+    "objectID": "index.html#building-public-goods",
+    "href": "index.html#building-public-goods",
+    "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
+    "section": "Building public goods",
+    "text": "Building public goods"
+  },
+  {
+    "objectID": "index.html#research-practice-partnerships-around-data-needs",
+    "href": "index.html#research-practice-partnerships-around-data-needs",
+    "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
+    "section": "Research-practice partnerships around data needs",
+    "text": "Research-practice partnerships around data needs"
+  },
+  {
+    "objectID": "index.html#starting-with-needs-for-water-quality-data",
+    "href": "index.html#starting-with-needs-for-water-quality-data",
+    "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
+    "section": "Starting with needs for water quality data",
+    "text": "Starting with needs for water quality data"
+  },
+  {
+    "objectID": "index.html#shiny-app-codap",
+    "href": "index.html#shiny-app-codap",
+    "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
+    "section": "Shiny app + CODAP",
+    "text": "Shiny app + CODAP"
+  },
+  {
+    "objectID": "index.html#students-figured-something-new-out",
+    "href": "index.html#students-figured-something-new-out",
+    "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
+    "section": "Students figured something new out",
+    "text": "Students figured something new out"
   }
 ]

@@ -8,6 +8,7 @@ title = "SEDS Keynote"
 files = [
     "/index.qmd",
     "/_quarto.yml",
+    "/custom.scss",
     "/img/rmldt-1.png",
     "/img/rmldt-2.png",
     "/img/schoolpicture.bmp",
