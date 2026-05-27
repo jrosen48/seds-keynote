@@ -78,9 +78,10 @@ format:
 
 </div>
 
-# Three pressures make this choice urgent
+# Problems/pressures that make this urgent
 
-## Funding
+## Educator and student data needs unmet
+
 :::: {.columns}
 
 ::: {.column width="60%"}
@@ -116,23 +117,37 @@ format:
 
 ## Allied fields are growing
 
+![](/img/mcfarland%20et%20al.png){width="70%"}
+
+[McFarland et al. (2021)](https://journals.sagepub.com/doi/pdf/10.1177/23328584211052055){.smaller}
+
+## Allied fields are growing
+
 ![](/img/eds-growth-abstract.png){width="70%"}
 
 [Drawing on McFarland et al. (2021)](https://journals.sagepub.com/doi/pdf/10.1177/23328584211052055){.smaller}
 
 [Through 2025]{.smaller}
 
+## Funding challenges and the need for impact
+
+![](/img/nsf%20overall%20funding.png){width="70%"}
+
+## Funding challenges and the need for impact
+
+![](/img/nsf%20edu%20funding.png){width="70%"}
+
 # Cleveland's Challenge to Statisticians (and Us)
 
 ## What impacts the work of the data analyst?
 
-<p class="fragment"><em><strong>"An action plan to enlarge the technical areas of statistics focuses on the data analyst."</strong></em></p>
+<p class="fragment"><em>"An action plan to enlarge the technical areas of statistics focuses on the data analyst."</em></p>
 
-<p class="fragment"><em><strong>"The basic premise is that technical areas of data science should be judged by the extent to which they enable the analyst to learn from data."</strong></em></p>
+<p class="fragment"><em>"The basic premise is that technical areas of data science should be judged by the extent to which they enable the analyst to learn from data."</em></p>
 
-<p class="fragment"><em><strong>"The benefit of an area can be direct or indirect."</strong></em></p>
+<p class="fragment"><em>"The benefit of an area can be direct or indirect."</em></p>
 
-<p class="fragment"><em><strong>"Tools that are used by the data analyst are of direct benefit. Theories that serve as a basis for developing tools are of indirect benefit."</strong></em></p>
+<p class="fragment"><em>"Tools that are used by the data analyst are of direct benefit. Theories that serve as a basis for developing tools are of indirect benefit."</em></p>
 
 <p class="fragment"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1751-5823.2001.tb00477.x" style="font-size: 0.5em;">Cleveland (2001)</a></p>
 
@@ -155,7 +170,7 @@ format:
 
 - What if we judged our field by *how much teachers, learners, and leaders in educational systems can learn from data*?
 
-- I argue that this is an orientation, **practice-based Education Data Science***
+- I argue that this is an orientation, **practice-based Education Data Science**
 
 - What would the areas for an Education Data Science discipline be?
 
@@ -170,7 +185,11 @@ format:
 
 ## Right-sized data problems
 
-Blair (Higher Education; Administrator): *A lot of my job is taking data that the school generates and helping the students to better understand their progress and also helping the faculty to better understand how to assess students’ progress and better support them... ***It’s not even a very sophisticated analysis, but it's aggregating it together and presenting it to them in a way that they can take action on it.**
+Blair (Higher Education; Administrator): 
+
+*A lot of my job is taking data that the school generates and helping the students to better understand their progress and also helping the faculty to better understand how to assess students’ progress and better support them...*
+
+**It’s not even a very sophisticated analysis, but it's aggregating it together and presenting it to them in a way that they can take action on it.**
 
 [Staudt Willet and Rosenberg, in preparation]{.smaller}
 
@@ -234,8 +253,7 @@ or it can make it easier to **engage less or not at all**.
 
 <div style="text-align:center; font-size: 1em;">
 
-***If we are to judge our field by how much teachers, learners, and leaders in educational systems can learn from data, what are the areas of work that we should be doing? 
-***
+***If we are to judge our field by how much teachers, learners, and leaders in educational systems can learn from data, what are the areas of work that we should be doing?***
 
 </div>
 
@@ -257,43 +275,37 @@ or it can make it easier to **engage less or not at all**.
 
 ![](/img/science-classroom.jpg){width="70%"}
 
-## Students figured something new out
+## Students figured (yucky) out
 
-![](/img/e coli.jpg){width="70%"}
+![](/img/e coli.png){width="70%"}
 
 # Conclusion
 
 ## Summarizing the argument 
 
-One option is that Education Data Science is simply a methodological program 
+- One option is that Education Data Science is simply a methodological program 
 
-Another is that Education Data Science becomes something other than data science applied in education when educational practice is the focus of the work
+- Another is that Education Data Science becomes something different when educational practice orients the work
 
-My argument is that the latter _does work that a general data scientist would struggle to do alone_ and that that the latter has the potential to impact education in a more sustained way
+- My claim is that the practice-based Education Data Science addresses problems of impact, needs, and distinguishing the field *and* is more likely to make a sustained impact on education
 
-## What is part of practice-based Education Data Science?
+## A few concrete ideas
 
-How seriously is education practice taken? **This can take many different forms --- direct and indirect**
+- **This can take many different forms --- direct and indirect**
 
-*A practical test*: what would this look like in a school or in a district office?
+  - Partner with teacher education or curriculum and instruction colleagues
 
-## A few practical ideas
+  - Discuss ideas with practitioners
 
-Partner with teacher education or curriculum and instruction colleagues (*and*, partner with Education Data Scientists!)
+  - Take a small step to share beyond an article
 
-Share ideas with (or get ideas from) practitioners
+## A call
 
-Build partnerships and public goods from which research can come
-
-## A call (to myself and others)
-
-Let's build a field and community truly at the intersection of data science and education; we can call that Education Data Science
-
-Let's prioritize **the extent to which teachers, learners, and leaders in educational systems can learn from data**
+Let's work over the next two days and beyond to construct an answer to the question, **"What do you mean by Education Data Dcience, really?"**
 
 ## Acknowledgements 
 
-Project CREDIBLE teachers, especially teacher leaders and Jen Sauer
+[Project CREDIBLE](https://projectcredible.com) teachers, especially teacher leaders and Jen Sauer
 
 Zhen Xu, Cody Pritchard, Leah Rosenbaum, and Bradley Holtz at the University of Tennessee, Knoxville
 

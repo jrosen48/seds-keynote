@@ -10,13 +10,17 @@ id = "019e621e-300e-5c0e-ad7c-81229ebc8645"
 dashboard_url = "https://connect.posit.cloud/joshuafrosenberg/content/019e621e-300e-5c0e-ad7c-81229ebc8645"
 direct_url = "https://019e621e-300e-5c0e-ad7c-81229ebc8645.share.connect.posit.cloud"
 logs_url = "https://connect.posit.cloud/joshuafrosenberg/content/019e621e-300e-5c0e-ad7c-81229ebc8645/history"
-deployed_at = "2026-05-27T14:31:03.447Z"
-bundle_id = "019e69d4-ead1-b2f8-1aa1-bfaf7878657e"
+deployed_at = "2026-05-27T15:06:43.646Z"
+bundle_id = "019e69f6-2e2c-c246-25f9-6560c4ab0421"
 files = [
     ".posit/publish/SEDS Keynote-UEDT.toml",
     ".posit/publish/deployments/deployment-VHL4.toml",
     "_quarto.yml",
+    "custom.scss",
+    "img/ETB.png",
+    "img/Image-1.jpg",
     "img/art-and-data.jpeg",
+    "img/barriers.png",
     "img/cld-bugs.png",
     "img/cld-class-bug.jpg",
     "img/cld-class.jpg",
@@ -24,6 +28,7 @@ files = [
     "img/cld-group.jpg",
     "img/cld-query.png",
     "img/cld-screens.png",
+    "img/cld.png",
     "img/cleveland-action-plan.png",
     "img/cleveland-pedagogy.png",
     "img/coach-students.jpeg",
@@ -31,6 +36,7 @@ files = [
     "img/codap-bar.jpeg",
     "img/credible-group.jpg",
     "img/dsieur-cover.jpg",
+    "img/e coli.png",
     "img/eds-growth-abstract.png",
     "img/eds-growth-thesaurus.png",
     "img/eds-past-present-future.png",
@@ -40,11 +46,16 @@ files = [
     "img/facebook-ethics-paper.png",
     "img/get-data.png",
     "img/intimidation-table.png",
+    "img/irw.png",
     "img/jr-classroom.jpg",
     "img/krebs-and-mertz.jpeg",
+    "img/leads ds.png",
+    "img/mcfarland et al.png",
     "img/messy-data.jpeg",
     "img/messy-desktop.png",
     "img/notebook-and-laptop.jpeg",
+    "img/nsf edu funding.png",
+    "img/nsf overall funding.png",
     "img/pd-card-sort.jpeg",
     "img/pd-group-work.jpeg",
     "img/pd-laptop-diagram.jpeg",
@@ -58,10 +69,13 @@ files = [
     "img/sentiment-results-table.png",
     "img/sentiment-variables-table.png",
     "img/software-use-table.png",
+    "img/state tiers.png",
+    "img/tech tools.png",
     "img/tidylpa-paper-sidebar.png",
     "img/tidylpa-paper.png",
     "img/tidylpa-website.png",
     "img/utk-composting-sign.jpeg",
+    "img/utk.jpeg",
     "img/word-cloud-fuglei.png",
     "index.qmd",
 ]
@@ -77,6 +91,20 @@ title = "SEDS Keynote"
 files = [
     "/index.qmd",
     "/_quarto.yml",
+    "/custom.scss",
+    "/img/barriers.png",
+    "/img/cld.png",
+    "/img/e coli.png",
+    "/img/ETB.png",
+    "/img/Image-1.jpg",
+    "/img/irw.png",
+    "/img/leads ds.png",
+    "/img/state tiers.png",
+    "/img/tech tools.png",
+    "/img/utk.jpeg",
+    "/img/mcfarland et al.png",
+    "/img/nsf overall funding.png",
+    "/img/nsf edu funding.png",
     "/img/rmldt-1.png",
     "/img/rmldt-2.png",
     "/img/schoolpicture.bmp",
@@ -129,9 +157,4 @@ files = [
 ]
 validate = true
 product_type = "connect_cloud"
-
-[deployment_error]
-code = "deployFailed"
-message = "Unable to render: Unable to render your content. Please check the logs for more information."
-operation = "publish"
 
