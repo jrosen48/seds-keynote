@@ -10,7 +10,7 @@ id = "019e621e-300e-5c0e-ad7c-81229ebc8645"
 dashboard_url = "https://connect.posit.cloud/joshuafrosenberg/content/019e621e-300e-5c0e-ad7c-81229ebc8645"
 direct_url = "https://019e621e-300e-5c0e-ad7c-81229ebc8645.share.connect.posit.cloud"
 logs_url = "https://connect.posit.cloud/joshuafrosenberg/content/019e621e-300e-5c0e-ad7c-81229ebc8645/history"
-deployed_at = "2026-05-27T04:56:45.945Z"
+deployed_at = "2026-05-27T05:05:19.637Z"
 
 [connect_cloud]
 account_name = "joshuafrosenberg"

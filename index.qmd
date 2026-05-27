@@ -4,7 +4,7 @@ subtitle: "A keynote presentation at the Stanford Education Data Science confere
 author: "Joshua M. Rosenberg, Ph.D."
 format:
   revealjs:
-    theme: [simple, custom.scss]
+    theme: [simple, custom]
     slide-number: c/t
     incremental: false
     width: 1280
@@ -371,9 +371,7 @@ How seriously is education practice taken? **This can take many different forms 
 
 ## A call (to myself and others)
 
-Value work that emphasizes impact, partnership, and the data-related problems teachers, students, and others in education face.
-
-For more junior scholars, do work that shows us what this looks like!
+Let's learn from one another during these two days and shape a field that addresses important and timely problems and makes a sustained, positive impact on education.
 
 ## Acknowledgements 
 
@@ -381,5 +379,9 @@ Project CREDIBLE teachers around Knox County Schools, especially teacher leaders
 
 Zhen Xu, Cody Pritchard, Leah Rosenbaum, and Bradley Holtz at the University of Tennessee Knoxville
 
+Thanks to many others, including my friends and colleagues here today, who have shaped my thinking and supported my work
+
 This material is based upon work supported by the National Science Foundation under Grant No. 2239152.
 
+Contact: jrosenb8@utk.edu 
+Web: https://joshuamrosenberg.com
