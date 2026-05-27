@@ -445,7 +445,7 @@
     "href": "index.html#what-do-you-mean-by",
     "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
     "section": "What do you mean by …",
-    "text": "What do you mean by …\n\n\nMy goal is to improve educational outcomes.\n\n\nMy goal is to improve educational outcomes.\n\n\nMy goal is to improve educational outcomes.\n\n\n\nI have a friend, and maybe you have a friend like this (or this person is you!) who is always interrogating and critiquing the subtle framing of research. If I say, for example, my goal is to improve educational outcomes, they will ask, of course:\nwhich outcomes? A totally reasonable question.\nBut then they will also ask, what do you mean by improve? A harder question.\nAnd, even, what do you mean by “my goal”? At this point, I often found myself provoked and ready to abandon the conversation, but, on reflection, the questions are always thoughtful.\nThis talk is meant (or should I say, I mean for this talk!) to get a bit at something related - what are the underlying goals of what we call educational data science?"
+    "text": "What do you mean by …\n\n\nMy goal is to improve educational outcomes.\n\n\nMy goal is to improve educational outcomes.\n\n\nMy goal is to improve educational outcomes.\n\n\n\nI have a friend, and maybe you have a friend like this (or this person is you!) who is always interrogating and critiquing the subtle framing of research. If I say, for example, my goal is to improve educational outcomes, they will ask, of course:\nwhich outcomes? A totally reasonable question.\nBut then they will also ask, what do you mean by improve? A harder question.\nAnd, even, what do you mean by “my goal”? At this point, I often found myself provoked and ready to abandon the conversation, but, on reflection, the questions are always thoughtful.\nThis talk is meant (or should I say, I mean for this talk!) to get a bit at something related - what are the underlying goals of what we call educational data science?\nBy practice-based Education Data Science, I mean work where educational practice is not merely the site of application, but a source of problems, standards of usefulness, and accountability."
   },
   {
     "objectID": "index.html#perspectives",
@@ -802,7 +802,7 @@
     "href": "index.html#the-question-motivating-this-talk",
     "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
     "section": "The question motivating this talk",
-    "text": "The question motivating this talk\n\nIs Education Data Science a methodological program that takes education as a use case, or is it a discipline that is situated and contextualized in more integral, distinctive ways?"
+    "text": "The question motivating this talk\n\nIs Education Data Science a methodological program that takes education as a use case — or is educational practice a source of problems, standards, and accountability?"
   },
   {
     "objectID": "index.html#text-and-science-classroom-data",
@@ -900,7 +900,7 @@
     "href": "index.html#seeing-peers-create-a-simple-visualization-through-code",
     "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
     "section": "Seeing peers create a simple visualization through code",
-    "text": "Seeing peers create a simple visualization through code\n\nFrom the Resilient Educator"
+    "text": "Seeing peers create a simple visualization through code\n\nFrom the Resilient Educator\n\nI came to data science through science education. I think of the spark being seeing students changing the colors of graphs they made in Excel, and seeing them relate to their product — a small but meaningful relationship to data; claiming a relationship.\nAnother was seeing a colleague create an oft- (and I think correctly) bemoaned data visualization of text data, a word cloud. But they were so proud they created - coded - it.\nStill another was laying in bed in graduate school looking at R code I wrote, that worked. It was eye opening; I wasn’t trained as a programmer, but I became, over time, interested, and then a bit obsessed, for years reading every book I could find (I think literally) on R, statistics using R."
   },
   {
     "objectID": "index.html#need-for-impact-amidst-funding-cut",
@@ -991,7 +991,7 @@
     "href": "index.html#allied-fields-are-growing",
     "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
     "section": "Allied fields are growing",
-    "text": "Allied fields are growing\n\nMcFarland et al. (2021)"
+    "text": "Allied fields are growing\n\nDrawing on McFarland et al. (2021)\nThrough 2025"
   },
   {
     "objectID": "index.html#allied-fields-are-growing-1",
@@ -1097,5 +1097,19 @@
     "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
     "section": "These are just examples — it’s up to us to flesh out",
     "text": "These are just examples — it’s up to us to flesh out\n\nRight-sized data problems\nData science education infrastructure\nResearch-practice partnerships around data education\nThinking about impact beyond journals articles\nTeaching practitioners and researchers"
+  },
+  {
+    "objectID": "index.html#what-is-part-of-practice-based-education-data-science",
+    "href": "index.html#what-is-part-of-practice-based-education-data-science",
+    "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
+    "section": "What is part of practice-based Education Data Science?",
+    "text": "What is part of practice-based Education Data Science?\nHow seriously is education practice taken? This can take many different forms — direct and indirect\nA practical test: what would this look like in a school or in a district office?"
+  },
+  {
+    "objectID": "index.html#a-call-to-myself-and-others",
+    "href": "index.html#a-call-to-myself-and-others",
+    "title": "Practice-based Education Data Science: A Proposal for Our Emerging Field",
+    "section": "A call (to myself and others)",
+    "text": "A call (to myself and others)\nChoose problems close enough to educational practice that its answers matter.\nValue work that emphasizes impact, partnership, and the data-related problems teachers, students, and others in education face.\nFor more junior scholars, do work that shows us what this looks like!"
   }
 ]

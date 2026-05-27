@@ -34,22 +34,16 @@ But then they will also ask, what do you mean by improve? A harder question.
 And, even, what do you mean by "my goal"? At this point, I often found myself provoked and ready to abandon the conversation, but, on reflection, the questions are always thoughtful. 
 
 This talk is meant (or should I say, I mean for this talk!) to get a bit at something related - what are the underlying goals of what we call educational data science?
-:::
 
-## Perspectives
-
-![](/img/rmldt-2.png){width="70%"}
-
-::: {.notes}
-But maybe that wasn't quite it --- it wasn't so much about method and pedagogy as about _in_ vs. _for_ education
-
-This talk argues the choice is impo and timely.
+By practice-based Education Data Science, I mean work where educational practice is not merely the site of application, but a source of problems, standards of usefulness, and accountability.
 :::
 
 ## The question motivating this talk
 
-<div style="text-align:center">
-***Is Education Data Science a methodological program that takes education as a use case, or is it a discipline that is situated and contextualized in more integral, distinctive ways?***
+<div style="text-align:center; font-size: 1.3em;">
+
+***Is Education Data Science a methodological program that takes education as a use case — or is educational practice a source of problems, standards, and accountability?***
+
 </div>
 
 # My pathway to the question
@@ -81,12 +75,6 @@ I'll share very briefly where I am coming from. I was a science teacher, and I i
 ![](/img/word-cloud-fuglei.png){width="70%"}
 
 [From [the Resilient Educator](https://resilienteducator.com/classroom-resources/word-clouds-writing/)]{.smaller}
-
-## Text and science classroom data
-
-![](/img/gen image.png){width="100%"}
-
-[From [Rosenberg & Krist (2021)](https://link.springer.com/article/10.1007/s10956-020-09862-4)]{.smaller}
 
 ::: {.notes}
 
@@ -128,24 +116,19 @@ not the best programmer, not the best teacher educator
 
 # Turn and talk
 
-<div style="text-align:center">
+<div style="text-align:center; font-size: 1em;">
 
 ***What was your path to education data science?***
+
 </div>
 
-# Timely Gaps and Problems
+# Three pressures make this choice urgent
 
 ::: {.notes}
 
 There are a lot! Let's highlight 3
 
 :::
-
-## Funding cuts and the need to show impact
-
-![](/img/nsf%20overall%20funding.png){width="70%"}
-
-[From [Grant Witness](https://grant-witness.us/funding_curves_nsf.html)]{.smaller}
 
 ## Funding cuts and the need to show impact
 
@@ -190,13 +173,9 @@ There are a lot! Let's highlight 3
 
 ## Allied fields are growing
 
-![](/img/mcfarland%20et%20al.png){width="70%"}
-
-[McFarland et al. (2021)](https://journals.sagepub.com/doi/pdf/10.1177/23328584211052055){.smaller}
-
-## Allied fields are growing
-
 ![](/img/eds-growth-abstract.png){width="70%"}
+
+[Drawing on McFarland et al. (2021)](https://journals.sagepub.com/doi/pdf/10.1177/23328584211052055){.smaller}
 
 [Through 2025]{.smaller}
 
@@ -237,7 +216,7 @@ I argue that this is practice-based Education Data Science
 
 What would the areas for an Education Data Science discipline (or program or department) be?
 
-# Five Possible Areas (Among Others)
+# Five kinds of work this orientation makes visible
 
 :::{.notes}
 **These can bring us closer to educational practice, be distinct from "general" data science, and be an area of comparative advantage.**
@@ -337,19 +316,22 @@ or it can make it easier to **never engage with it at all**.
 
 # Back to the core question
 
-<div style="text-align:center">
-***Is Education Data Science a methodological program that takes education as a use case, or is it a discipline that is situated and contextualized in more integral, distinctive ways?***
+<div style="text-align:center; font-size: 1.3em;">
+
+***Is Education Data Science a methodological program that takes education as a use case — or is educational practice a source of problems, standards, and accountability?***
+
 </div>
 
 # Turn and talk 
 
-<div style="text-align:center">
+<div style="text-align:center; font-size: 1em;">
 
-If we are to judge our field by how much teachers, learners, and leaders in educational systems can learn from data, what are the areas of work that we should be doing? 
+***If we are to judge our field by how much teachers, learners, and leaders in educational systems can learn from data, what are the areas of work that we should be doing? 
+***
 
 </div>
 
-# One example of practice-based Education Data Science
+# One worked example
 
 ## Starting with practitioner needs for water quality data
 
@@ -381,17 +363,19 @@ Another is that Education Data Science becomes something other than data science
 
 My argument is that the latter _does work that a general data scientist would struggle to do alone_ and that that the latter has the potential to impact education in a more sustained way
 
-## What is part of this perspective on Education Data Science -- and what is not?
+## What is part of practice-based Education Data Science?
 
 How seriously is education practice taken? **This can take many different forms --- direct and indirect**
 
 *A practical test*: what would this look like in a school or in a district office?
 
-## A call
+## A call (to myself and others)
+
+Choose problems close enough to educational practice that its answers matter.
 
 Value work that emphasizes impact, partnership, and the data-related problems teachers, students, and others in education face.
 
-Do work that shows us what this looks like!
+For more junior scholars, do work that shows us what this looks like!
 
 ## Acknowledgements 
 

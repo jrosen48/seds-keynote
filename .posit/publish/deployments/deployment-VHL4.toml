@@ -10,61 +10,7 @@ id = "019e621e-300e-5c0e-ad7c-81229ebc8645"
 dashboard_url = "https://connect.posit.cloud/joshuafrosenberg/content/019e621e-300e-5c0e-ad7c-81229ebc8645"
 direct_url = "https://019e621e-300e-5c0e-ad7c-81229ebc8645.share.connect.posit.cloud"
 logs_url = "https://connect.posit.cloud/joshuafrosenberg/content/019e621e-300e-5c0e-ad7c-81229ebc8645/history"
-deployed_at = "2026-05-26T03:09:52.275Z"
-files = [
-    ".posit/publish/SEDS Keynote-UEDT.toml",
-    ".posit/publish/deployments/deployment-VHL4.toml",
-    "_quarto.yml",
-    "img/art-and-data.jpeg",
-    "img/cld-bugs.png",
-    "img/cld-class-bug.jpg",
-    "img/cld-class.jpg",
-    "img/cld-full.png",
-    "img/cld-group.jpg",
-    "img/cld-query.png",
-    "img/cld-screens.png",
-    "img/cleveland-action-plan.png",
-    "img/cleveland-pedagogy.png",
-    "img/coach-students.jpeg",
-    "img/codap-ag-data.jpeg",
-    "img/codap-bar.jpeg",
-    "img/credible-group.jpg",
-    "img/dsieur-cover.jpg",
-    "img/eds-growth-abstract.png",
-    "img/eds-growth-thesaurus.png",
-    "img/eds-past-present-future.png",
-    "img/eds-skills-chart.png",
-    "img/eds-work-abstract.png",
-    "img/excel.jpg",
-    "img/facebook-ethics-paper.png",
-    "img/get-data.png",
-    "img/intimidation-table.png",
-    "img/jr-classroom.jpg",
-    "img/krebs-and-mertz.jpeg",
-    "img/messy-data.jpeg",
-    "img/messy-desktop.png",
-    "img/notebook-and-laptop.jpeg",
-    "img/pd-card-sort.jpeg",
-    "img/pd-group-work.jpeg",
-    "img/pd-laptop-diagram.jpeg",
-    "img/pd-outdoor-pair.jpeg",
-    "img/public-sentiment-paper.png",
-    "img/rmldt-1.png",
-    "img/rmldt-2.png",
-    "img/schoolpicture.bmp",
-    "img/science-classroom.jpg",
-    "img/sentiment-model-eq.png",
-    "img/sentiment-results-table.png",
-    "img/sentiment-variables-table.png",
-    "img/software-use-table.png",
-    "img/tidylpa-paper-sidebar.png",
-    "img/tidylpa-paper.png",
-    "img/tidylpa-website.png",
-    "img/utk-composting-sign.jpeg",
-    "img/word-cloud-fuglei.png",
-    "index.qmd",
-]
-dismissed_at = "2026-05-26T03:09:52.273Z"
+deployed_at = "2026-05-27T04:56:45.945Z"
 
 [connect_cloud]
 account_name = "joshuafrosenberg"
