@@ -10,8 +10,8 @@ id = "019e621e-300e-5c0e-ad7c-81229ebc8645"
 dashboard_url = "https://connect.posit.cloud/joshuafrosenberg/content/019e621e-300e-5c0e-ad7c-81229ebc8645"
 direct_url = "https://019e621e-300e-5c0e-ad7c-81229ebc8645.share.connect.posit.cloud"
 logs_url = "https://connect.posit.cloud/joshuafrosenberg/content/019e621e-300e-5c0e-ad7c-81229ebc8645/history"
-deployed_at = "2026-05-27T15:06:43.646Z"
-bundle_id = "019e69f6-2e2c-c246-25f9-6560c4ab0421"
+deployed_at = "2026-05-27T21:57:14.057Z"
+bundle_id = "019e6b70-b67b-99b0-c079-c3e5893c03cf"
 files = [
     ".posit/publish/SEDS Keynote-UEDT.toml",
     ".posit/publish/deployments/deployment-VHL4.toml",
@@ -42,6 +42,7 @@ files = [
     "img/eds-past-present-future.png",
     "img/eds-skills-chart.png",
     "img/eds-work-abstract.png",
+    "img/esteem.png",
     "img/excel.jpg",
     "img/facebook-ethics-paper.png",
     "img/get-data.png",
@@ -70,6 +71,7 @@ files = [
     "img/sentiment-variables-table.png",
     "img/software-use-table.png",
     "img/state tiers.png",
+    "img/survey.png",
     "img/tech tools.png",
     "img/tidylpa-paper-sidebar.png",
     "img/tidylpa-paper.png",
@@ -105,6 +107,8 @@ files = [
     "/img/mcfarland et al.png",
     "/img/nsf overall funding.png",
     "/img/nsf edu funding.png",
+    "/img/survey.png",
+    "/img/esteem.png",
     "/img/rmldt-1.png",
     "/img/rmldt-2.png",
     "/img/schoolpicture.bmp",
